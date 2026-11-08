@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>World Explorer 3D — Interactive World History &amp; Geography</title>
+  <meta name="description" content="Spin a 3D Earth, tap any country and explore its geography and history.">
+  <meta name="theme-color" content="#070b16">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%23102341' stroke='%23d6b46a' stroke-width='3'/%3E%3Cpath d='M4 32h56M32 4c-10 9-10 47 0 56M32 4c10 9 10 47 0 56' fill='none' stroke='%23d6b46a' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="./css/app.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "d3-geo": "https://cdn.jsdelivr.net/npm/d3-geo@3/+esm",
+      "topojson-client": "https://cdn.jsdelivr.net/npm/topojson-client@3/+esm"
+    }
+  }
+  </script>
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <main id="stage" aria-label="Globe">
+    <div id="globe" tabindex="0" role="application"
+         aria-label="Interactive globe. Drag or use arrow keys to rotate, plus and minus to zoom, slash to search, Enter to open the country in the centre."></div>
+  </main>
+
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="World Explorer 3D home">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="27" /><path d="M5 32h54M32 5c-10 9-10 45 0 54M32 5c10 9 10 45 0 54M10 18h44M10 46h44"/></svg>
+      <span><b>World Explorer</b><small>Interactive atlas of history &amp; geography</small></span>
+    </a>
+    <button class="search-pill" data-route="#/search" aria-label="Search countries">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <span>Search countries…</span><kbd>/</kbd>
+    </button>
+  </header>
+
+  <nav class="nav" aria-label="Main">
+    <button data-route="#/" data-nav="explore" aria-label="Explore">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-3 3-3 15 0 18M12 3c3 3 3 15 0 18"/></svg><span>Explore</span></button>
+    <button data-route="#/search" data-nav="search" aria-label="Search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span>Search</span></button>
+    <button data-action="surprise" data-nav="surprise" aria-label="Surprise me — random country">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.4 5.6L20 9.3l-4.3 3.9 1.2 5.8L12 16.1 7.1 19l1.2-5.8L4 9.3l5.6-.7z"/></svg><span>Surprise</span></button>
+    <button data-route="#/favourites" data-nav="favourites" aria-label="Saved and progress">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg><span>Saved</span></button>
+    <button data-route="#/settings" data-nav="settings" aria-label="Settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg><span>Settings</span></button>
+  </nav>
+
+  <div class="map-controls" role="group" aria-label="Globe controls">
+    <button data-action="zoom-in" aria-label="Zoom in">+</button>
+    <button data-action="zoom-out" aria-label="Zoom out">−</button>
+    <button data-action="home" aria-label="Reset view">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7M5 10v10h14V10"/></svg></button>
+  </div>
+
+  <div class="mode-badge" id="modeBadge" hidden>Lite mode</div>
+
+  <aside id="panel" class="panel" data-state="closed" aria-label="Details" aria-hidden="true">
+    <div class="sheet-grip" id="sheetGrip" role="button" tabindex="0" aria-label="Resize panel"><span></span></div>
+    <button class="panel-close" data-action="close" aria-label="Close panel">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div class="panel-body" id="panelBody" tabindex="-1"></div>
+  </aside>
+
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+
+  <div id="loader" class="loader" role="alert" aria-live="assertive">
+    <div class="loader-orb" aria-hidden="true"></div>
+    <h1>World Explorer</h1>
+    <p id="loaderText">Preparing the globe…</p>
+    <div id="loaderError" class="loader-error" hidden>
+      <p id="loaderErrorText"></p>
+      <button class="btn btn-gold" id="retryBtn">Try again</button>
+      <button class="btn" id="liteBtn">Open in Lite mode</button>
+    </div>
+  </div>
+
+  <noscript><div class="noscript">World Explorer needs JavaScript to display the globe.</div></noscript>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
