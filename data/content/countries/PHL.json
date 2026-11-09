@@ -1,0 +1,261 @@
+{
+  "id": "PHL",
+  "updated": "2026-11-09",
+  "review_status": "Researched for Milestone 2; claims carry sources and confidence labels.",
+  "overview": {
+    "summary": "The Philippines is an archipelago of more than 7,000 islands on the western rim of the Pacific. For centuries before Europeans arrived, its ports traded with China, Southeast Asia and beyond. Spanish rule, then American rule, then independence each reshaped the country.",
+    "stats": {
+      "population": { "value": 116786962, "year": 2025, "source": "wb-pop" },
+      "land_area_km2": { "value": 298170, "year": 2024, "source": "wb-land" }
+    },
+    "languages": ["Filipino and English — official languages", "More than a hundred regional languages, including Cebuano, Ilocano and Hiligaynon"],
+    "currency": { "code": "PHP", "name": "Philippine peso" },
+    "government": "Presidential republic",
+    "geography": [
+      "Three main island groups: Luzon, the Visayas and Mindanao",
+      "Part of the Pacific 'Ring of Fire', with active volcanoes such as Mayon and Taal",
+      "Coral reefs of exceptional diversity, such as Tubbataha in the Sulu Sea"
+    ],
+    "climate": "Tropical maritime: hot and humid, with a wet season from roughly June to November. Typhoons frequently strike from the Pacific.",
+    "culture": [
+      "Pre-colonial communities were organised as barangays — a word linked to balangay, the plank-built boats in which early communities travelled",
+      "Spanish-era stone churches built to resist earthquakes are a distinctive 'earthquake baroque' style",
+      "The Ifugao rice terraces have been farmed for centuries and are a living cultural landscape"
+    ],
+    "sources": ["britannica-philippines", "wb-pop", "wb-land"]
+  },
+  "history": [
+    {
+      "id": "phl-tabon",
+      "era": "Prehistory",
+      "y": -45000, "display": "c. 47,000 years ago (± 11,000)",
+      "title": "The Tabon Caves of Palawan",
+      "text": "In the Tabon Caves, a tibia fragment dated to about 47,000 years ago (with a wide margin of error) is among the oldest modern-human remains in the Philippines. The caves were used by people for tens of thousands of years and later held burial jars.",
+      "confidence": "established",
+      "note": "The date has a large uncertainty (± 11,000 years). Older hominin remains from Callao Cave in Luzon are a separate find.",
+      "location": { "lat": 9.2799, "lng": 117.9814, "label": "Tabon Caves, Palawan" },
+      "sources": ["unesco-tabon-tentative"]
+    },
+    {
+      "id": "phl-butuan-boats",
+      "era": "Early maritime trade",
+      "y": 320, "y2": 1250, "display": "4th–13th century CE",
+      "title": "The balangay boats of Butuan",
+      "text": "Large plank-built wooden boats unearthed at Butuan in Mindanao show that skilled seafaring communities lived here long before Europeans arrived. The first two recovered were radiocarbon-dated to about 320 CE and 1250 CE.",
+      "confidence": "established",
+      "note": "Early radiocarbon results were widely spread; later studies have sought more precise dates.",
+      "location": { "lat": 8.95, "lng": 125.53, "label": "Butuan, Agusan del Norte" },
+      "sources": ["unesco-ronquillo-butuan", "flinders-lacsina-2016"]
+    },
+    {
+      "id": "phl-lci",
+      "era": "Early kingdoms",
+      "y": 900, "display": "21 April 900 CE",
+      "title": "The Laguna Copperplate Inscription",
+      "text": "A thin copper sheet found in 1987 near Lumban, Laguna, records that a man named Namwaran and his family were cleared of a debt. Written in Old Malay in Kawi script and dated Saka 822, it is the oldest known dated document from the Philippines and shows links to Java and the wider Malay world.",
+      "confidence": "established",
+      "note": "It was found in 1987 and first translated by Antoon Postma; the two dates are often confused.",
+      "location": { "lat": 14.29, "lng": 121.46, "label": "Lumban, Laguna" },
+      "sources": ["postma-1992-lci", "nmp-lci"]
+    },
+    {
+      "id": "phl-sulu",
+      "era": "Kingdoms and sultanates",
+      "y": 1450, "display": "c. mid-15th century",
+      "title": "The Sultanate of Sulu",
+      "text": "Islam spread into the southern Philippines through trade, and by the 15th century a sultanate had formed in the Sulu archipelago. Sulu became a powerful trading state linking the Philippines with Borneo and the wider Malay world.",
+      "confidence": "probable",
+      "note": "The exact founding date is uncertain; traditional genealogies differ.",
+      "location": { "lat": 6.05, "lng": 121.0, "label": "Jolo, Sulu" },
+      "sources": ["britannica-philippines"]
+    },
+    {
+      "id": "phl-kalantiaw",
+      "era": "Myth vs evidence",
+      "y": 1433, "display": "Claimed 1433 — forged in the 20th century",
+      "title": "The Code of Kalantiaw: a famous hoax",
+      "text": "For decades, schoolbooks taught that a chief named Kalantiaw issued a harsh legal code in 1433. In 1968 historian William Henry Scott showed that it was a 20th-century forgery by José E. Marco. In 2004 the National Historical Institute declared that the code has no valid historical basis.",
+      "confidence": "debunked",
+      "note": "Some sources date the government action to 2005, when the NHI resolution was acted on.",
+      "location": { "lat": 11.70, "lng": 122.36, "label": "Batan, Aklan (site of the former Kalantiaw shrine)" },
+      "sources": ["scott-1968", "inquirer-bibliographic-ghosts", "wiki-kalantiaw"]
+    },
+    {
+      "id": "phl-magellan",
+      "era": "Spanish arrival",
+      "y": 1521, "display": "1521",
+      "title": "Magellan's expedition and the Battle of Mactan",
+      "text": "Ferdinand Magellan's Spanish expedition reached the Visayas in 1521. In Cebu it formed an alliance with the local ruler Humabon, but on nearby Mactan Island Magellan was killed in battle by forces of the chief Lapulapu.",
+      "confidence": "established",
+      "location": { "lat": 10.31, "lng": 124.02, "label": "Mactan Island, Cebu" },
+      "sources": ["britannica-philippines"]
+    },
+    {
+      "id": "phl-legazpi",
+      "era": "Spanish colonial era",
+      "y": 1565, "y2": 1571, "display": "1565–1571",
+      "title": "Spanish settlement: Cebu, then Manila",
+      "text": "Miguel López de Legazpi established a Spanish settlement in Cebu in 1565 and made Manila the capital of the Spanish East Indies in 1571. Spain would rule most of the archipelago for over three centuries.",
+      "confidence": "established",
+      "location": { "lat": 14.5896, "lng": 120.9747, "label": "Intramuros, Manila" },
+      "sources": ["britannica-philippines"]
+    },
+    {
+      "id": "phl-galleon",
+      "era": "Spanish colonial era",
+      "y": 1565, "y2": 1815, "display": "1565–1815",
+      "title": "The Manila galleons",
+      "text": "For 250 years, Spanish galleons crossed the Pacific between Manila and Acapulco, carrying Chinese silk and porcelain east and Mexican silver west. Manila became one of the world's great ports, a hub of trade between Asia and the Americas.",
+      "confidence": "established",
+      "location": { "lat": 14.5896, "lng": 120.9747, "label": "Manila" },
+      "route": "manila-galleon",
+      "sources": ["britannica-manila-galleon", "britannica-manila-galleon-print"]
+    },
+    {
+      "id": "phl-revolution",
+      "era": "Revolution",
+      "y": 1896, "y2": 1898, "display": "1896–1898",
+      "title": "The Philippine Revolution",
+      "text": "The secret society Katipunan launched an armed revolt against Spain in 1896. On 12 June 1898 Emilio Aguinaldo proclaimed Philippine independence at Kawit, Cavite, the date now celebrated as Independence Day.",
+      "confidence": "established",
+      "location": { "lat": 14.4447, "lng": 120.9028, "label": "Kawit, Cavite" },
+      "sources": ["britannica-philippines"]
+    },
+    {
+      "id": "phl-american",
+      "era": "American period",
+      "y": 1899, "y2": 1946, "display": "1899–1946",
+      "title": "American rule and the Philippine–American War",
+      "text": "Spain ceded the Philippines to the United States in the 1898 Treaty of Paris. Filipino forces fought the Americans in the Philippine–American War (1899–1902). US rule then continued, with a self-governing Commonwealth established in 1935.",
+      "confidence": "established",
+      "location": { "lat": 14.5995, "lng": 120.9842, "label": "Manila" },
+      "sources": ["britannica-philippines"]
+    },
+    {
+      "id": "phl-ww2",
+      "era": "World War II",
+      "y": 1942, "y2": 1945, "display": "1942–1945",
+      "title": "Japanese occupation and the Battle of Manila",
+      "text": "Japan invaded in December 1941 and occupied the islands from 1942. The 1945 Battle of Manila devastated the city, including much of the old walled city of Intramuros.",
+      "confidence": "established",
+      "location": { "lat": 14.5896, "lng": 120.9747, "label": "Intramuros, Manila" },
+      "sources": ["britannica-philippines"]
+    },
+    {
+      "id": "phl-1946",
+      "era": "Independence",
+      "y": 1946, "display": "4 July 1946",
+      "title": "Full independence",
+      "text": "The United States recognised Philippine independence on 4 July 1946, creating the Republic of the Philippines.",
+      "confidence": "established",
+      "location": { "lat": 14.5995, "lng": 120.9842, "label": "Manila" },
+      "sources": ["britannica-philippines"]
+    },
+    {
+      "id": "phl-edsa",
+      "era": "Modern Philippines",
+      "y": 1986, "display": "February 1986",
+      "title": "People Power",
+      "text": "Huge peaceful crowds on EDSA, Manila's main highway, helped bring down Ferdinand Marcos after two decades in power. Corazon Aquino became president.",
+      "confidence": "established",
+      "location": { "lat": 14.6046, "lng": 121.0567, "label": "EDSA, Metro Manila" },
+      "sources": ["britannica-philippines"]
+    }
+  ],
+  "places": [
+    {
+      "id": "intramuros",
+      "name": "Intramuros, Manila",
+      "type": "Historic walled city",
+      "lat": 14.5896, "lng": 120.9747,
+      "summary": "The Spanish walled city at the heart of Manila, rebuilt after the destruction of 1945.",
+      "details": [
+        "Intramuros (\"within the walls\") was the seat of Spanish government in the Philippines. Its San Agustín Church is part of the UNESCO-listed Baroque Churches of the Philippines.",
+        "Much of the walled city was destroyed in the 1945 Battle of Manila; walls and key buildings have since been restored."
+      ],
+      "sources": ["britannica-philippines", "unesco-baroque-churches"]
+    },
+    {
+      "id": "rice-terraces",
+      "name": "Rice Terraces of the Philippine Cordilleras",
+      "type": "Cultural landscape · UNESCO World Heritage",
+      "lat": 16.95, "lng": 121.08,
+      "unesco": { "id": 722, "year": 1995 },
+      "summary": "Mountain terraces carved and farmed by the Ifugao over many generations.",
+      "details": [
+        "UNESCO calls the terraces outstanding examples of living cultural landscapes, showing traditional techniques and harmony between people and nature.",
+        "They were placed on the List of World Heritage in Danger in 2001 and removed in 2012 after conservation improved."
+      ],
+      "sources": ["unesco-rice-terraces", "unesco-rice-terraces-decision"]
+    },
+    {
+      "id": "vigan",
+      "name": "Historic Town of Vigan",
+      "type": "Historic town · UNESCO World Heritage",
+      "lat": 17.5747, "lng": 120.3869,
+      "unesco": { "id": 502, "year": 1999 },
+      "summary": "Described by UNESCO as the most intact example in Asia of a planned Spanish colonial town.",
+      "details": [
+        "Vigan's cobbled streets and ancestral houses reflect a fusion of Philippine and Chinese building traditions with Spanish town planning."
+      ],
+      "sources": ["unesco-vigan"]
+    },
+    {
+      "id": "tabon",
+      "name": "Tabon Caves",
+      "type": "Archaeological site",
+      "lat": 9.2799, "lng": 117.9814,
+      "summary": "Caves on Palawan's coast that hold some of the oldest human remains in the Philippines.",
+      "details": [
+        "Excavations led by the National Museum since 1962 found stone tools, burial jars and human remains, including a tibia dated to about 47,000 years ago.",
+        "The complex is on the Philippines' tentative list for World Heritage nomination."
+      ],
+      "sources": ["unesco-tabon-tentative"]
+    },
+    {
+      "id": "tubbataha",
+      "name": "Tubbataha Reefs Natural Park",
+      "type": "Natural wonder · UNESCO World Heritage",
+      "lat": 8.95, "lng": 119.87,
+      "unesco": { "id": 653, "year": 1993 },
+      "summary": "Remote coral atolls in the Sulu Sea teeming with marine life.",
+      "details": [
+        "Tubbataha protects pristine coral reefs, sharks, turtles and seabirds far out in the Sulu Sea."
+      ],
+      "sources": ["unesco-tubbataha"]
+    },
+    {
+      "id": "puerto-princesa",
+      "name": "Puerto-Princesa Subterranean River",
+      "type": "Natural wonder · UNESCO World Heritage",
+      "lat": 10.193, "lng": 118.926,
+      "unesco": { "id": 652, "year": 1999 },
+      "summary": "A navigable river that flows through a limestone cave straight into the sea.",
+      "details": [
+        "The underground river winds through a cave system with chambers and formations before emerging into the South China Sea, surrounded by forest that runs from mountain to coast."
+      ],
+      "sources": ["unesco-puerto-princesa"]
+    }
+  ],
+  "sources": {
+    "britannica-philippines": { "title": "Philippines", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Philippines", "accessed": "2026-11-09" },
+    "britannica-manila-galleon": { "title": "Manila galleon", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/technology/Manila-galleon", "accessed": "2026-11-09" },
+    "britannica-manila-galleon-print": { "title": "Manila galleon (1565–1815)", "publisher": "Encyclopaedia Britannica", "url": "https://britannica.com/print/article/362297", "accessed": "2026-11-09" },
+    "unesco-tabon-tentative": { "title": "Tabon Cave Complex — Tentative List entry", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/tentativelists/1860", "accessed": "2026-11-09" },
+    "unesco-ronquillo-butuan": { "title": "The Butuan Archaeological Finds (W. P. Ronquillo, National Museum, 1987)", "publisher": "UNESCO Silk Roads Programme knowledge bank", "url": "https://en.unesco.org/silkroad/sites/default/files/knowledge-bank-article/the_butuan_archaeological_finds_profound_implications_for_philippines_and_southeast_asian_prehistory.pdf", "accessed": "2026-11-09" },
+    "flinders-lacsina-2016": { "title": "Examining pre-colonial Southeast Asian boatbuilding: the Butuan Boats (L. Lacsina, PhD thesis)", "publisher": "Flinders University", "url": "https://theses.flinders.edu.au/view/58348c74-8c36-4b2e-a714-ec6fa70d790e/1", "accessed": "2026-11-09" },
+    "postma-1992-lci": { "title": "The Laguna Copper-Plate Inscription: Text and Commentary (A. Postma)", "publisher": "Philippine Studies 40(2), 1992, Ateneo de Manila University" },
+    "nmp-lci": { "title": "Laguna Copperplate Inscription — National Cultural Treasure", "publisher": "National Museum of the Philippines" },
+    "scott-1968": { "title": "Prehispanic Source Materials for the Study of Philippine History (W. H. Scott; 1968, rev. 1984)", "publisher": "New Day Publishers" },
+    "inquirer-bibliographic-ghosts": { "title": "Bibliographic ghosts (Ambeth Ocampo)", "publisher": "Philippine Daily Inquirer", "url": "https://opinion.inquirer.net/?p=81001", "accessed": "2026-11-09" },
+    "wiki-kalantiaw": { "title": "Code of Kalantiaw", "publisher": "Wikipedia (summary of NHI Resolution No. 12, 2004)", "url": "https://en.wikipedia.org/wiki/Code_of_Kalantiaw", "accessed": "2026-11-09" },
+    "unesco-rice-terraces": { "title": "Rice Terraces of the Philippine Cordilleras", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/722", "accessed": "2026-11-09" },
+    "unesco-rice-terraces-decision": { "title": "Decision 19 COM VIII.C.1 — Inscription of the Rice Terraces", "publisher": "UNESCO World Heritage Committee", "url": "https://whc.unesco.org/en/decisions/3094", "accessed": "2026-11-09" },
+    "unesco-baroque-churches": { "title": "Baroque Churches of the Philippines", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/677", "accessed": "2026-11-09" },
+    "unesco-vigan": { "title": "Historic Town of Vigan", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/502", "accessed": "2026-11-09" },
+    "unesco-tubbataha": { "title": "Tubbataha Reefs Natural Park", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/653", "accessed": "2026-11-09" },
+    "unesco-puerto-princesa": { "title": "Puerto-Princesa Subterranean River National Park", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/652", "accessed": "2026-11-09" },
+    "wb-pop": { "title": "Population, total (SP.POP.TOTL)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=PH", "accessed": "2026-11-09" },
+    "wb-land": { "title": "Land area, sq. km (AG.LND.TOTL.K2)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/AG.LND.TOTL.K2?locations=PH", "accessed": "2026-11-09" }
+  }
+}

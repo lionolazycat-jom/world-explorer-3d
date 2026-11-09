@@ -1,0 +1,247 @@
+{
+  "id": "ITA",
+  "updated": "2026-11-09",
+  "review_status": "Researched for Milestone 2; claims carry sources and confidence labels.",
+  "overview": {
+    "summary": "Italy's boot-shaped peninsula reaches into the Mediterranean, and few places have shaped Western history more. It was the centre of the Roman Empire, the birthplace of the Renaissance and, only since 1861, a single unified country.",
+    "stats": {
+      "population": { "value": 58915656, "year": 2025, "source": "wb-pop" },
+      "land_area_km2": { "value": 295720, "year": 2024, "source": "wb-land" }
+    },
+    "languages": ["Italian — official language", "German, French and Slovene have official status in some regions; many regional languages and dialects are spoken"],
+    "currency": { "code": "EUR", "name": "Euro" },
+    "government": "Parliamentary republic",
+    "geography": [
+      "The Alps form the northern border; the Apennines run down the length of the peninsula",
+      "Includes the large islands of Sicily and Sardinia",
+      "Active volcanoes include Etna, Vesuvius and Stromboli"
+    ],
+    "climate": "Mostly Mediterranean, with hot dry summers and mild wet winters; the Alps and the Po Valley in the north have colder winters.",
+    "culture": [
+      "Italy has more UNESCO World Heritage sites than almost any other country",
+      "Two independent states lie inside Italy: Vatican City and San Marino",
+      "Regional identities remain strong, from food to dialect, a legacy of centuries of separate states"
+    ],
+    "sources": ["britannica-italy", "wb-pop", "wb-land"]
+  },
+  "history": [
+    {
+      "id": "ita-etruscans",
+      "era": "Ancient Italy",
+      "y": -800, "y2": -300, "display": "c. 8th – 3rd century BCE",
+      "title": "The Etruscans",
+      "text": "Before Rome's rise, the Etruscans built wealthy city-states in central Italy. Their art, religion and engineering strongly influenced early Rome.",
+      "confidence": "established",
+      "location": { "lat": 42.42, "lng": 12.10, "label": "Etruria (Tuscany and Lazio)" },
+      "sources": ["britannica-italy"]
+    },
+    {
+      "id": "ita-founding",
+      "era": "Myth vs evidence",
+      "y": -753, "display": "Traditional date: 753 BCE",
+      "title": "Romulus, Remus and the founding of Rome",
+      "text": "Roman tradition says the twins Romulus and Remus, raised by a she-wolf, founded Rome in 753 BCE. The story is legend, but archaeology shows settlements on Rome's hills by around that period.",
+      "confidence": "legend",
+      "location": { "lat": 41.8892, "lng": 12.4875, "label": "Palatine Hill, Rome" },
+      "sources": ["britannica-ancient-rome"]
+    },
+    {
+      "id": "ita-republic",
+      "era": "Roman Republic",
+      "y": -509, "display": "Traditional date: 509 BCE",
+      "title": "The Roman Republic",
+      "text": "According to Roman tradition, the last king was expelled in 509 BCE and Rome became a republic governed by elected magistrates and the Senate.",
+      "confidence": "probable",
+      "note": "The date comes from later Roman historians and is approximate.",
+      "location": { "lat": 41.8925, "lng": 12.4853, "label": "Roman Forum" },
+      "sources": ["britannica-ancient-rome"]
+    },
+    {
+      "id": "ita-punic",
+      "era": "Roman Republic",
+      "y": -264, "y2": -146, "display": "264–146 BCE",
+      "title": "The Punic Wars against Carthage",
+      "text": "Rome fought three wars with Carthage for control of the western Mediterranean. Hannibal famously crossed the Alps with elephants, but Rome won and destroyed Carthage in 146 BCE.",
+      "confidence": "established",
+      "location": { "lat": 36.85, "lng": 10.33, "label": "Carthage (modern Tunisia)" },
+      "sources": ["britannica-ancient-rome"]
+    },
+    {
+      "id": "ita-caesar",
+      "era": "Roman Republic",
+      "y": -44, "display": "15 March 44 BCE",
+      "title": "The assassination of Julius Caesar",
+      "text": "Caesar's power as dictator alarmed many senators, who stabbed him to death on the Ides of March. Civil wars followed.",
+      "confidence": "established",
+      "location": { "lat": 41.8955, "lng": 12.4768, "label": "Curia of Pompey, Rome" },
+      "sources": ["britannica-ancient-rome"]
+    },
+    {
+      "id": "ita-augustus",
+      "era": "Roman Empire",
+      "y": -27, "display": "27 BCE",
+      "title": "Augustus becomes the first emperor",
+      "text": "Caesar's adopted heir Octavian, victorious in the civil wars, received the title Augustus in 27 BCE, turning the republic into an empire in all but name.",
+      "confidence": "established",
+      "location": { "lat": 41.8925, "lng": 12.4853, "label": "Rome" },
+      "sources": ["britannica-ancient-rome"]
+    },
+    {
+      "id": "ita-vesuvius",
+      "era": "Roman Empire",
+      "y": 79, "display": "79 CE",
+      "title": "Vesuvius buries Pompeii",
+      "text": "The eruption of Mount Vesuvius buried Pompeii and Herculaneum under ash and pumice, preserving a Roman town in remarkable detail.",
+      "confidence": "established",
+      "location": { "lat": 40.7484, "lng": 14.4848, "label": "Pompeii" },
+      "sources": ["unesco-pompeii"]
+    },
+    {
+      "id": "ita-trajan",
+      "era": "Roman Empire",
+      "y": 117, "display": "117 CE",
+      "title": "The empire at its greatest extent",
+      "text": "Under Emperor Trajan, who died in 117 CE, the Roman Empire reached its largest size, stretching from Britain to Mesopotamia.",
+      "confidence": "established",
+      "location": { "lat": 41.8958, "lng": 12.4847, "label": "Trajan's Forum, Rome" },
+      "sources": ["britannica-ancient-rome"]
+    },
+    {
+      "id": "ita-476",
+      "era": "Fall of Rome",
+      "y": 476, "display": "476 CE",
+      "title": "The end of the Western Roman Empire",
+      "text": "The Germanic commander Odoacer deposed the last western emperor, Romulus Augustulus, in 476 — the traditional end of the Western Roman Empire. The Eastern (Byzantine) Empire continued until 1453.",
+      "confidence": "established",
+      "note": "476 is a convenient marker; many historians see the fall as a long transformation rather than a single event.",
+      "location": { "lat": 44.4184, "lng": 12.2035, "label": "Ravenna" },
+      "sources": ["britannica-ancient-rome"]
+    },
+    {
+      "id": "ita-renaissance",
+      "era": "Renaissance",
+      "y": 1400, "y2": 1550, "display": "c. 14th – 16th century",
+      "title": "The Renaissance in Florence",
+      "text": "Wealthy city-states such as Florence, under families like the Medici, funded an explosion of art, architecture and learning. Brunelleschi's dome, Botticelli, Leonardo da Vinci and Michelangelo all belong to this age.",
+      "confidence": "established",
+      "location": { "lat": 43.7731, "lng": 11.256, "label": "Florence" },
+      "sources": ["unesco-florence", "britannica-italy"]
+    },
+    {
+      "id": "ita-unification",
+      "era": "Unification",
+      "y": 1861, "display": "1861 (Rome added 1870–71)",
+      "title": "The Kingdom of Italy",
+      "text": "After decades of struggle known as the Risorgimento, led by figures such as Cavour and Garibaldi, the Kingdom of Italy was proclaimed in 1861. Rome was captured in 1870 and became the capital in 1871.",
+      "confidence": "established",
+      "location": { "lat": 45.0703, "lng": 7.6869, "label": "Turin (first capital)" },
+      "sources": ["britannica-italy"]
+    },
+    {
+      "id": "ita-fascism",
+      "era": "World War II",
+      "y": 1922, "y2": 1945, "display": "1922–1945",
+      "title": "Mussolini and the Second World War",
+      "text": "Benito Mussolini came to power in 1922 and set up a Fascist dictatorship. Italy joined the Second World War on Germany's side in 1940; Mussolini fell in 1943 and was killed in 1945.",
+      "confidence": "established",
+      "location": { "lat": 41.8961, "lng": 12.4825, "label": "Palazzo Venezia, Rome" },
+      "sources": ["britannica-italy"]
+    },
+    {
+      "id": "ita-republic-1946",
+      "era": "Contemporary Italy",
+      "y": 1946, "display": "2 June 1946",
+      "title": "Italy becomes a republic",
+      "text": "In a referendum on 2 June 1946, Italians voted to abolish the monarchy. The day is celebrated as Festa della Repubblica.",
+      "confidence": "established",
+      "location": { "lat": 41.8992, "lng": 12.4731, "label": "Rome" },
+      "sources": ["britannica-italy"]
+    }
+  ],
+  "places": [
+    {
+      "id": "rome",
+      "name": "Historic Centre of Rome & the Colosseum",
+      "type": "Ancient city · UNESCO World Heritage",
+      "lat": 41.8902, "lng": 12.4922,
+      "unesco": { "id": 91, "year": 1980 },
+      "summary": "The heart of an empire: the Colosseum, Forum, Pantheon and nearly three thousand years of continuous history.",
+      "details": [
+        "The Colosseum, completed in 80 CE, could hold tens of thousands of spectators for gladiator games. The Pantheon's unreinforced concrete dome remains one of the largest of its kind."
+      ],
+      "sources": ["unesco-rome"]
+    },
+    {
+      "id": "pompeii",
+      "name": "Pompeii & Herculaneum",
+      "type": "Archaeological site · UNESCO World Heritage",
+      "lat": 40.7484, "lng": 14.4848,
+      "unesco": { "id": 829, "year": 1997 },
+      "summary": "Roman towns frozen in time by the eruption of Vesuvius in 79 CE.",
+      "details": [
+        "Streets, shops, frescoes and even graffiti survive, giving an unmatched picture of everyday Roman life."
+      ],
+      "sources": ["unesco-pompeii"]
+    },
+    {
+      "id": "florence",
+      "name": "Historic Centre of Florence",
+      "type": "Historic city · UNESCO World Heritage",
+      "lat": 43.7731, "lng": 11.256,
+      "unesco": { "id": 174, "year": 1982 },
+      "summary": "Cradle of the Renaissance, crowned by Brunelleschi's dome.",
+      "details": [
+        "Florence's cathedral, the Uffizi and the Ponte Vecchio reflect its wealth and artistic leadership in the 15th and 16th centuries under the Medici."
+      ],
+      "sources": ["unesco-florence"]
+    },
+    {
+      "id": "venice",
+      "name": "Venice and its Lagoon",
+      "type": "Historic city · UNESCO World Heritage",
+      "lat": 45.4343, "lng": 12.3388,
+      "unesco": { "id": 394, "year": 1987 },
+      "summary": "A city built on 118 islands in a lagoon, once the hub of a maritime trading empire.",
+      "details": [
+        "Venice was founded in the 5th century as people sought refuge from invasions on the mainland. Built on wooden piles driven into the lagoon mud, it became a great sea power trading with the eastern Mediterranean."
+      ],
+      "sources": ["unesco-venice"]
+    },
+    {
+      "id": "pisa",
+      "name": "Piazza del Duomo, Pisa",
+      "type": "Cathedral square · UNESCO World Heritage",
+      "lat": 43.723, "lng": 10.3966,
+      "unesco": { "id": 395, "year": 1987 },
+      "summary": "The cathedral, baptistery and the famous Leaning Tower.",
+      "details": [
+        "The tower began to lean during construction in the 12th century because of soft ground. Engineering work completed in 2001 reduced the tilt and stabilised it."
+      ],
+      "sources": ["unesco-pisa"]
+    },
+    {
+      "id": "dolomites",
+      "name": "The Dolomites",
+      "type": "Natural wonder · UNESCO World Heritage",
+      "lat": 46.41, "lng": 11.84,
+      "unesco": { "id": 1237, "year": 2009 },
+      "summary": "Pale limestone peaks in the north-eastern Alps, born from ancient coral reefs.",
+      "details": [
+        "The Dolomites contain fossilised reef systems from the Triassic period, making them important for geology as well as spectacular to look at."
+      ],
+      "sources": ["unesco-dolomites"]
+    }
+  ],
+  "sources": {
+    "britannica-italy": { "title": "Italy", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Italy", "accessed": "2026-11-09" },
+    "britannica-ancient-rome": { "title": "Ancient Rome", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/ancient-Rome", "accessed": "2026-11-09" },
+    "unesco-rome": { "title": "Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/91", "accessed": "2026-11-09" },
+    "unesco-pompeii": { "title": "Archaeological Areas of Pompei, Herculaneum and Torre Annunziata", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/829", "accessed": "2026-11-09" },
+    "unesco-florence": { "title": "Historic Centre of Florence", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/174", "accessed": "2026-11-09" },
+    "unesco-venice": { "title": "Venice and its Lagoon", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/394", "accessed": "2026-11-09" },
+    "unesco-pisa": { "title": "Piazza del Duomo, Pisa", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/395", "accessed": "2026-11-09" },
+    "unesco-dolomites": { "title": "The Dolomites", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1237", "accessed": "2026-11-09" },
+    "wb-pop": { "title": "Population, total (SP.POP.TOTL)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=IT", "accessed": "2026-11-09" },
+    "wb-land": { "title": "Land area, sq. km (AG.LND.TOTL.K2)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/AG.LND.TOTL.K2?locations=IT", "accessed": "2026-11-09" }
+  }
+}

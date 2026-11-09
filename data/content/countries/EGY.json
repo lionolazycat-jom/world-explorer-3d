@@ -1,0 +1,238 @@
+{
+  "id": "EGY",
+  "updated": "2026-11-09",
+  "review_status": "Researched for Milestone 2; claims carry sources and confidence labels.",
+  "overview": {
+    "summary": "Egypt is the gift of the Nile: a ribbon of fertile land through the desert that fed one of the world's first great civilisations. It sits where Africa meets Asia, and the Suez Canal links the Mediterranean with the Red Sea.",
+    "stats": {
+      "population": { "value": 118365995, "year": 2025, "source": "wb-pop" },
+      "land_area_km2": { "value": 995450, "year": 2024, "source": "wb-land" }
+    },
+    "languages": ["Arabic — official language (Egyptian Arabic is the everyday spoken form)"],
+    "currency": { "code": "EGP", "name": "Egyptian pound" },
+    "government": "Presidential republic",
+    "geography": [
+      "Most people live along the Nile valley and delta, a small fraction of the country's area",
+      "The Western Desert and Eastern Desert cover most of the land; the Sinai Peninsula lies in Asia",
+      "The Suez Canal, opened in 1869, connects the Mediterranean and Red Seas"
+    ],
+    "climate": "Hot desert climate: very little rain, hot summers and mild winters; the Mediterranean coast is slightly cooler and wetter.",
+    "culture": [
+      "Ancient Egyptians wrote in hieroglyphs for over 3,000 years; the Rosetta Stone helped scholars decipher them in the 1820s",
+      "Cairo's historic Islamic quarter has hundreds of mosques, madrasas and city gates",
+      "Coptic Christians are one of the oldest Christian communities in the world"
+    ],
+    "sources": ["britannica-egypt", "wb-pop", "wb-land"]
+  },
+  "history": [
+    {
+      "id": "egy-unification",
+      "era": "Ancient Egypt",
+      "y": -3100, "display": "c. 3100 BCE",
+      "title": "Upper and Lower Egypt unite",
+      "text": "Around 3100 BCE, the kingdoms of the Nile valley and the delta were united under one ruler, traditionally named Menes and often linked to King Narmer. This began the long line of pharaohs.",
+      "confidence": "probable",
+      "note": "The date is approximate and whether Menes and Narmer were the same person is debated.",
+      "location": { "lat": 29.85, "lng": 31.25, "label": "Memphis" },
+      "sources": ["britannica-egypt"]
+    },
+    {
+      "id": "egy-pyramids",
+      "era": "Old Kingdom",
+      "y": -2560, "display": "c. 2560 BCE",
+      "title": "The Great Pyramid of Giza",
+      "text": "The Great Pyramid was built as the tomb of the pharaoh Khufu. It was the tallest human-made structure on Earth for more than 3,800 years. Evidence such as workers' villages and papyri shows it was built by organised, paid labour teams, not by slaves as once popularly believed.",
+      "confidence": "established",
+      "note": "Exact reign dates differ by a few decades between Egyptian chronologies.",
+      "location": { "lat": 29.9792, "lng": 31.1342, "label": "Giza" },
+      "sources": ["britannica-giza", "unesco-memphis"]
+    },
+    {
+      "id": "egy-new-kingdom",
+      "era": "New Kingdom",
+      "y": -1550, "y2": -1070, "display": "c. 1550 – c. 1070 BCE",
+      "title": "The New Kingdom: Egypt's imperial age",
+      "text": "Pharaohs such as Hatshepsut, Thutmose III, Akhenaten, Tutankhamun and Ramses II ruled from Thebes. They built the great temples of Karnak and Luxor and were buried in the Valley of the Kings.",
+      "confidence": "established",
+      "location": { "lat": 25.7188, "lng": 32.6573, "label": "Thebes (Luxor)" },
+      "sources": ["britannica-egypt", "unesco-thebes"]
+    },
+    {
+      "id": "egy-ptolemaic",
+      "era": "Classical antiquity",
+      "y": -332, "y2": -30, "display": "332–30 BCE",
+      "title": "Alexander and the Ptolemies",
+      "text": "Alexander the Great took Egypt in 332 BCE and founded Alexandria. After his death, his general Ptolemy founded a dynasty whose capital became a centre of learning, with its famous Library.",
+      "confidence": "established",
+      "location": { "lat": 31.2089, "lng": 29.9092, "label": "Alexandria" },
+      "sources": ["britannica-egypt"]
+    },
+    {
+      "id": "egy-cleopatra",
+      "era": "Classical antiquity",
+      "y": -30, "display": "30 BCE",
+      "title": "Cleopatra VII and the Roman conquest",
+      "text": "After the defeat of Cleopatra VII and Mark Antony by Octavian, Cleopatra died in 30 BCE and Egypt became a Roman province, supplying grain to Rome.",
+      "confidence": "established",
+      "location": { "lat": 31.2089, "lng": 29.9092, "label": "Alexandria" },
+      "sources": ["britannica-egypt"]
+    },
+    {
+      "id": "egy-arab",
+      "era": "Middle Ages",
+      "y": 641, "display": "639–642 CE",
+      "title": "The Arab conquest",
+      "text": "Arab Muslim armies took Egypt from the Byzantine Empire between 639 and 642. Over the following centuries Arabic became the main language and Islam the majority religion.",
+      "confidence": "established",
+      "location": { "lat": 30.0059, "lng": 31.2308, "label": "Fustat (Old Cairo)" },
+      "sources": ["britannica-egypt"]
+    },
+    {
+      "id": "egy-cairo",
+      "era": "Middle Ages",
+      "y": 969, "display": "969 CE",
+      "title": "The Fatimids found Cairo",
+      "text": "The Fatimid dynasty founded al-Qāhirah — Cairo — in 969, and soon after built al-Azhar Mosque, one of the world's oldest continuously operating centres of learning.",
+      "confidence": "established",
+      "location": { "lat": 30.0459, "lng": 31.2625, "label": "Historic Cairo" },
+      "sources": ["britannica-egypt", "unesco-cairo"]
+    },
+    {
+      "id": "egy-ottoman",
+      "era": "Early modern",
+      "y": 1517, "display": "1517",
+      "title": "Ottoman conquest",
+      "text": "The Ottoman Empire defeated the Mamluk sultanate in 1517, and Egypt became an Ottoman province, though local Mamluk elites kept much influence.",
+      "confidence": "established",
+      "location": { "lat": 30.0287, "lng": 31.2599, "label": "Cairo Citadel" },
+      "sources": ["britannica-egypt"]
+    },
+    {
+      "id": "egy-napoleon",
+      "era": "Modern Egypt",
+      "y": 1798, "display": "1798–1801 · Rosetta Stone found 1799",
+      "title": "Napoleon's expedition and the Rosetta Stone",
+      "text": "French forces under Napoleon occupied Egypt from 1798 to 1801. In 1799 French soldiers found the Rosetta Stone; its parallel texts allowed Jean-François Champollion to decipher hieroglyphs in 1822.",
+      "confidence": "established",
+      "location": { "lat": 31.40, "lng": 30.42, "label": "Rashid (Rosetta)" },
+      "sources": ["britannica-egypt"]
+    },
+    {
+      "id": "egy-suez",
+      "era": "Modern Egypt",
+      "y": 1869, "display": "1869",
+      "title": "The Suez Canal opens",
+      "text": "The canal cut the sea journey between Europe and Asia by thousands of kilometres. Its strategic value drew British occupation in 1882.",
+      "confidence": "established",
+      "location": { "lat": 30.58, "lng": 32.27, "label": "Ismailia, Suez Canal" },
+      "sources": ["britannica-egypt"]
+    },
+    {
+      "id": "egy-1952",
+      "era": "Modern Egypt",
+      "y": 1952, "display": "1922 · 1952 · 1956",
+      "title": "Independence, revolution and the Suez Crisis",
+      "text": "Britain recognised Egypt's independence in 1922 but kept major powers. In 1952 army officers overthrew the monarchy; Egypt became a republic in 1953. Gamal Abdel Nasser's nationalisation of the Suez Canal in 1956 triggered the Suez Crisis.",
+      "confidence": "established",
+      "location": { "lat": 30.0444, "lng": 31.2357, "label": "Cairo" },
+      "sources": ["britannica-egypt"]
+    },
+    {
+      "id": "egy-abu-simbel",
+      "era": "Contemporary Egypt",
+      "y": 1964, "y2": 1968, "display": "1964–1968",
+      "title": "Moving the temples of Abu Simbel",
+      "text": "The Aswan High Dam would flood Nubian monuments, so an international campaign led by UNESCO cut the Abu Simbel temples into blocks and rebuilt them on higher ground. The campaign helped inspire the World Heritage Convention.",
+      "confidence": "established",
+      "location": { "lat": 22.3372, "lng": 31.6258, "label": "Abu Simbel" },
+      "sources": ["unesco-nubia"]
+    }
+  ],
+  "places": [
+    {
+      "id": "giza",
+      "name": "Pyramids of Giza",
+      "type": "Ancient monument · UNESCO World Heritage",
+      "lat": 29.9792, "lng": 31.1342,
+      "unesco": { "id": 86, "year": 1979 },
+      "summary": "The pyramids of Khufu, Khafre and Menkaure and the Great Sphinx — the only survivor of the Seven Wonders of the Ancient World.",
+      "details": [
+        "The Giza plateau is part of the UNESCO site 'Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur'.",
+        "The Great Pyramid of Khufu is the only one of the Seven Wonders of the Ancient World still standing."
+      ],
+      "sources": ["unesco-memphis", "britannica-giza"]
+    },
+    {
+      "id": "thebes",
+      "name": "Ancient Thebes: Karnak, Luxor & the Valley of the Kings",
+      "type": "Temples & tombs · UNESCO World Heritage",
+      "lat": 25.7188, "lng": 32.6573,
+      "unesco": { "id": 87, "year": 1979 },
+      "summary": "Capital of Egypt at its height, with vast temples on the east bank and royal tombs on the west.",
+      "details": [
+        "Karnak's Great Hypostyle Hall has 134 colossal columns. Across the Nile, the Valley of the Kings holds the tombs of New Kingdom pharaohs, including Tutankhamun's, found by Howard Carter in 1922."
+      ],
+      "sources": ["unesco-thebes"]
+    },
+    {
+      "id": "abu-simbel",
+      "name": "Abu Simbel",
+      "type": "Temples · UNESCO World Heritage",
+      "lat": 22.3372, "lng": 31.6258,
+      "unesco": { "id": 88, "year": 1979 },
+      "summary": "Ramses II's rock-cut temples, moved block by block in the 1960s to save them from flooding.",
+      "details": [
+        "Part of the 'Nubian Monuments from Abu Simbel to Philae'. The international rescue campaign is one of UNESCO's most famous achievements."
+      ],
+      "sources": ["unesco-nubia"]
+    },
+    {
+      "id": "historic-cairo",
+      "name": "Historic Cairo",
+      "type": "Historic city · UNESCO World Heritage",
+      "lat": 30.0459, "lng": 31.2625,
+      "unesco": { "id": 89, "year": 1979 },
+      "summary": "One of the world's oldest Islamic cities, full of mosques, madrasas, bathhouses and fountains.",
+      "details": [
+        "Founded in the 10th century, Cairo became a major centre of the Islamic world and reached a golden age under the Mamluks in the 14th century."
+      ],
+      "sources": ["unesco-cairo"]
+    },
+    {
+      "id": "st-catherine",
+      "name": "Saint Catherine's Monastery, Sinai",
+      "type": "Monastery · UNESCO World Heritage",
+      "lat": 28.5559, "lng": 33.976,
+      "unesco": { "id": 954, "year": 2002 },
+      "summary": "One of the oldest working Christian monasteries in the world, at the foot of Mount Sinai.",
+      "details": [
+        "Built in the 6th century, the monastery is sacred to Christianity, Islam and Judaism and holds an exceptional library of ancient manuscripts."
+      ],
+      "sources": ["unesco-st-catherine"]
+    },
+    {
+      "id": "wadi-al-hitan",
+      "name": "Wadi Al-Hitan (Whale Valley)",
+      "type": "Fossil site · UNESCO World Heritage",
+      "lat": 29.27, "lng": 30.04,
+      "unesco": { "id": 1186, "year": 2005 },
+      "summary": "Fossil whales with tiny hind legs lie in the desert, showing how whales evolved from land animals.",
+      "details": [
+        "The fossils of the archaeocete whales here capture a key moment in evolution: the transition of whales from land mammals to ocean-going animals."
+      ],
+      "sources": ["unesco-wadi-al-hitan"]
+    }
+  ],
+  "sources": {
+    "britannica-egypt": { "title": "Egypt", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Egypt", "accessed": "2026-11-09" },
+    "britannica-giza": { "title": "Pyramids of Giza", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Pyramids-of-Giza", "accessed": "2026-11-09" },
+    "unesco-memphis": { "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/86", "accessed": "2026-11-09" },
+    "unesco-thebes": { "title": "Ancient Thebes with its Necropolis", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/87", "accessed": "2026-11-09" },
+    "unesco-nubia": { "title": "Nubian Monuments from Abu Simbel to Philae", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/88", "accessed": "2026-11-09" },
+    "unesco-cairo": { "title": "Historic Cairo", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/89", "accessed": "2026-11-09" },
+    "unesco-st-catherine": { "title": "Saint Catherine Area", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/954", "accessed": "2026-11-09" },
+    "unesco-wadi-al-hitan": { "title": "Wadi Al-Hitan (Whale Valley)", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1186", "accessed": "2026-11-09" },
+    "wb-pop": { "title": "Population, total (SP.POP.TOTL)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=EG", "accessed": "2026-11-09" },
+    "wb-land": { "title": "Land area, sq. km (AG.LND.TOTL.K2)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/AG.LND.TOTL.K2?locations=EG", "accessed": "2026-11-09" }
+  }
+}

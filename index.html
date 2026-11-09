@@ -43,6 +43,8 @@
   <nav class="nav" aria-label="Main">
     <button data-route="#/" data-nav="explore" aria-label="Explore">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-3 3-3 15 0 18M12 3c3 3 3 15 0 18"/></svg><span>Explore</span></button>
+    <button data-route="#/timeline" data-nav="timeline" aria-label="Timeline — travel through time">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12M6 21h12M7 3c0 5 10 5 10 9s-10 4-10 9M17 3c0 5-10 5-10 9s10 4 10 9"/></svg><span>Timeline</span></button>
     <button data-route="#/search" data-nav="search" aria-label="Search">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span>Search</span></button>
     <button data-action="surprise" data-nav="surprise" aria-label="Surprise me — random country">
@@ -61,6 +63,12 @@
   </div>
 
   <div class="mode-badge" id="modeBadge" hidden>Lite mode</div>
+
+  <div class="time-chip" id="timeChip" hidden role="status">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12M6 21h12M7 3c0 5 10 5 10 9s-10 4-10 9M17 3c0 5-10 5-10 9s10 4 10 9"/></svg>
+    <span id="timeChipText"></span>
+    <button data-action="exit-time" aria-label="Leave time travel and return to today's map">Today</button>
+  </div>
 
   <aside id="panel" class="panel" data-state="closed" aria-label="Details" aria-hidden="true">
     <div class="sheet-grip" id="sheetGrip" role="button" tabindex="0" aria-label="Resize panel"><span></span></div>

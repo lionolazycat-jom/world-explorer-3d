@@ -1,0 +1,238 @@
+{
+  "id": "JPN",
+  "updated": "2026-11-09",
+  "review_status": "Researched for Milestone 2; claims carry sources and confidence labels.",
+  "overview": {
+    "summary": "Japan is a chain of islands off the east coast of Asia, where a long-isolated island culture repeatedly absorbed ideas from abroad and made them its own. In just a few decades after 1868 it went from a feudal shogunate to an industrial power.",
+    "stats": {
+      "population": { "value": 123366734, "year": 2025, "source": "wb-pop" },
+      "land_area_km2": { "value": 364500, "year": 2024, "source": "wb-land" }
+    },
+    "languages": ["Japanese — the national language (no law formally designates an official language)", "Ainu and Ryukyuan languages are Indigenous to Hokkaido and Okinawa"],
+    "currency": { "code": "JPY", "name": "Japanese yen" },
+    "government": "Parliamentary constitutional monarchy; the emperor is a symbol of the state",
+    "geography": [
+      "Four main islands — Honshu, Hokkaido, Kyushu and Shikoku — plus thousands of smaller ones",
+      "Mostly mountainous and volcanic; Mount Fuji (3,776 m) is the highest peak",
+      "Sits where several tectonic plates meet, so earthquakes and tsunamis are a constant risk"
+    ],
+    "climate": "Ranges from snowy, cold winters in Hokkaido to subtropical Okinawa; most of the country has four distinct seasons and a rainy season in early summer.",
+    "culture": [
+      "Shinto and Buddhism coexist, and many people take part in the customs of both",
+      "Kyoto was the imperial capital for over a thousand years and keeps many temples, shrines and gardens",
+      "Seasonal traditions such as viewing cherry blossoms (hanami) are woven into daily life"
+    ],
+    "sources": ["britannica-japan", "wb-pop", "wb-land"]
+  },
+  "history": [
+    {
+      "id": "jpn-jomon",
+      "era": "Prehistory",
+      "y": -14000, "y2": -300, "display": "c. 14,000 – c. 300 BCE (dates vary)",
+      "title": "The Jōmon: hunter-gatherers who made pottery",
+      "text": "The Jōmon culture is named after the cord-marked patterns on its pottery, some of the oldest in the world. Jōmon people lived mostly by hunting, fishing and gathering for thousands of years.",
+      "confidence": "established",
+      "note": "Start and end dates differ between scholars and regions.",
+      "location": { "lat": 40.811, "lng": 140.696, "label": "Sannai-Maruyama site, Aomori" },
+      "sources": ["britannica-japan"]
+    },
+    {
+      "id": "jpn-jimmu",
+      "era": "Myth vs evidence",
+      "y": -660, "display": "Traditional date: 660 BCE",
+      "title": "Emperor Jimmu, the legendary first emperor",
+      "text": "Japan's 8th-century chronicles say the first emperor, Jimmu, took the throne in 660 BCE. Historians treat Jimmu as a legendary figure; the date was calculated much later and does not match archaeological evidence.",
+      "confidence": "legend",
+      "location": { "lat": 34.49, "lng": 135.78, "label": "Kashihara, Nara (traditional site)" },
+      "sources": ["britannica-japan"]
+    },
+    {
+      "id": "jpn-yayoi",
+      "era": "Ancient Japan",
+      "y": -300, "y2": 250, "display": "c. 300 BCE – c. 250 CE (start debated)",
+      "title": "The Yayoi: rice and metal arrive",
+      "text": "Wet-rice farming, bronze and iron spread into Japan from the Asian mainland, transforming society. Villages grew larger and local rulers emerged.",
+      "confidence": "debated",
+      "note": "Radiocarbon studies suggest rice farming may have begun several centuries earlier than the traditional c. 300 BCE.",
+      "location": { "lat": 33.33, "lng": 130.38, "label": "Yoshinogari site, Saga" },
+      "sources": ["britannica-japan"]
+    },
+    {
+      "id": "jpn-nara",
+      "era": "Classical Japan",
+      "y": 710, "display": "710",
+      "title": "Nara becomes the first permanent capital",
+      "text": "Modelled on Chang'an, the capital of Tang China, Nara (Heijō-kyō) became Japan's capital in 710. Great Buddhist temples such as Tōdai-ji rose there.",
+      "confidence": "established",
+      "location": { "lat": 34.689, "lng": 135.84, "label": "Nara" },
+      "sources": ["britannica-japan", "unesco-nara"]
+    },
+    {
+      "id": "jpn-heian",
+      "era": "Classical Japan",
+      "y": 794, "y2": 1185, "display": "794–1185",
+      "title": "The Heian period: Kyoto's golden age",
+      "text": "The capital moved to Heian-kyō (Kyoto) in 794. Court culture flourished: Murasaki Shikibu's The Tale of Genji, written in the early 11th century, is often called the world's first novel.",
+      "confidence": "established",
+      "location": { "lat": 35.0116, "lng": 135.7681, "label": "Kyoto" },
+      "sources": ["britannica-japan", "unesco-kyoto"]
+    },
+    {
+      "id": "jpn-kamakura",
+      "era": "Rule of the samurai",
+      "y": 1185, "y2": 1333, "display": "1185 (or 1192) – 1333",
+      "title": "The Kamakura shogunate",
+      "text": "After defeating the rival Taira clan, Minamoto no Yoritomo set up a military government in Kamakura. Real power passed from the imperial court to the shōgun and his samurai, a system that lasted in some form until 1868.",
+      "confidence": "established",
+      "note": "Historians date its start to 1185 (Yoritomo's victory) or 1192 (when he received the title of shōgun).",
+      "location": { "lat": 35.319, "lng": 139.55, "label": "Kamakura" },
+      "sources": ["britannica-japan"]
+    },
+    {
+      "id": "jpn-mongols",
+      "era": "Rule of the samurai",
+      "y": 1274, "y2": 1281, "display": "1274 and 1281",
+      "title": "The Mongol invasions",
+      "text": "Kublai Khan's forces twice attacked Kyushu. Both invasions failed, helped by storms later remembered as kamikaze, \"divine winds\".",
+      "confidence": "established",
+      "location": { "lat": 33.59, "lng": 130.40, "label": "Hakata Bay, Fukuoka" },
+      "sources": ["britannica-japan"]
+    },
+    {
+      "id": "jpn-sengoku",
+      "era": "Warring States",
+      "y": 1467, "y2": 1590, "display": "c. 1467 – 1590",
+      "title": "The Sengoku 'Warring States' period",
+      "text": "Central authority collapsed and rival warlords (daimyō) fought for control. Oda Nobunaga and then Toyotomi Hideyoshi reunified the country by 1590.",
+      "confidence": "established",
+      "location": { "lat": 34.99, "lng": 135.75, "label": "Kyoto" },
+      "sources": ["britannica-japan"]
+    },
+    {
+      "id": "jpn-tokugawa",
+      "era": "Edo period",
+      "y": 1603, "y2": 1868, "display": "1603–1868",
+      "title": "The Tokugawa shogunate and 250 years of peace",
+      "text": "Tokugawa Ieyasu became shōgun in 1603 and ruled from Edo (modern Tokyo). The shogunate strictly limited foreign trade and contact, and Japan enjoyed a long era of internal peace in which cities, arts and commerce flourished.",
+      "confidence": "established",
+      "location": { "lat": 35.6852, "lng": 139.7528, "label": "Edo Castle, Tokyo" },
+      "sources": ["britannica-japan"]
+    },
+    {
+      "id": "jpn-meiji",
+      "era": "Modern Japan",
+      "y": 1868, "display": "1868",
+      "title": "The Meiji Restoration",
+      "text": "The shogunate fell and power returned to the emperor. Japan rapidly modernised its army, industry, schools and government, borrowing ideas from Europe and America.",
+      "confidence": "established",
+      "location": { "lat": 35.6852, "lng": 139.7528, "label": "Tokyo" },
+      "sources": ["britannica-meiji", "britannica-japan"]
+    },
+    {
+      "id": "jpn-ww2",
+      "era": "World War II",
+      "y": 1945, "display": "August 1945",
+      "title": "Hiroshima, Nagasaki and surrender",
+      "text": "After years of war across Asia and the Pacific, the United States dropped atomic bombs on Hiroshima (6 August 1945) and Nagasaki (9 August). Japan announced its surrender on 15 August.",
+      "confidence": "established",
+      "location": { "lat": 34.3955, "lng": 132.4536, "label": "Hiroshima" },
+      "sources": ["britannica-japan", "unesco-hiroshima"]
+    },
+    {
+      "id": "jpn-postwar",
+      "era": "Contemporary Japan",
+      "y": 1947, "display": "1947 onward",
+      "title": "A new constitution and the economic miracle",
+      "text": "Japan's postwar constitution took effect in 1947, renouncing war as a sovereign right. Within decades the country became one of the world's largest economies.",
+      "confidence": "established",
+      "location": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo" },
+      "sources": ["britannica-japan"]
+    }
+  ],
+  "places": [
+    {
+      "id": "himeji",
+      "name": "Himeji Castle",
+      "type": "Castle · UNESCO World Heritage",
+      "lat": 34.8394, "lng": 134.6939,
+      "unesco": { "id": 661, "year": 1993 },
+      "summary": "The 'White Heron Castle', the finest surviving example of early 17th-century Japanese castle building.",
+      "details": [
+        "Himeji-jo's white-plastered walls and layered roofs make it the most celebrated of Japan's original castles, completed in the early 1600s."
+      ],
+      "sources": ["unesco-himeji"]
+    },
+    {
+      "id": "kyoto",
+      "name": "Historic Monuments of Ancient Kyoto",
+      "type": "Temples & shrines · UNESCO World Heritage",
+      "lat": 35.0116, "lng": 135.7681,
+      "unesco": { "id": 688, "year": 1994 },
+      "summary": "Seventeen temples, shrines and a castle from Japan's imperial capital of over a thousand years.",
+      "details": [
+        "Built in 794 on the model of Chinese capitals, Kyoto was Japan's imperial capital until the 19th century. The listing includes famous sites such as Kiyomizu-dera, Kinkaku-ji and Nijō Castle."
+      ],
+      "sources": ["unesco-kyoto"]
+    },
+    {
+      "id": "nara",
+      "name": "Historic Monuments of Ancient Nara",
+      "type": "Temples & palace site · UNESCO World Heritage",
+      "lat": 34.689, "lng": 135.84,
+      "unesco": { "id": 870, "year": 1998 },
+      "summary": "Japan's 8th-century capital, home of Tōdai-ji and its giant bronze Buddha.",
+      "details": [
+        "Nara's temples and shrines, and the remains of the Heijō Palace, show how Chinese and Korean influences shaped early Japanese culture."
+      ],
+      "sources": ["unesco-nara"]
+    },
+    {
+      "id": "itsukushima",
+      "name": "Itsukushima Shinto Shrine",
+      "type": "Shrine · UNESCO World Heritage",
+      "lat": 34.2959, "lng": 132.3199,
+      "unesco": { "id": 776, "year": 1996 },
+      "summary": "The 'floating' torii gate of Miyajima, which appears to stand on the sea at high tide.",
+      "details": [
+        "The shrine buildings were designed to sit over the water, set against the forested mountain of Miyajima island."
+      ],
+      "sources": ["unesco-itsukushima"]
+    },
+    {
+      "id": "hiroshima",
+      "name": "Hiroshima Peace Memorial (Genbaku Dome)",
+      "type": "Memorial · UNESCO World Heritage",
+      "lat": 34.3955, "lng": 132.4536,
+      "unesco": { "id": 775, "year": 1996 },
+      "summary": "The ruined building that stood closest to the first atomic bomb attack and survived.",
+      "details": [
+        "The dome was left as it was after the bombing of 6 August 1945, as a symbol of the destructive force of nuclear weapons and of hope for peace."
+      ],
+      "sources": ["unesco-hiroshima"]
+    },
+    {
+      "id": "fuji",
+      "name": "Mount Fuji (Fujisan)",
+      "type": "Sacred mountain · UNESCO World Heritage",
+      "lat": 35.3606, "lng": 138.7274,
+      "unesco": { "id": 1418, "year": 2013 },
+      "summary": "Japan's highest peak, a place of pilgrimage and a lasting inspiration for artists.",
+      "details": [
+        "Fujisan is listed as a cultural site: a sacred place of worship and pilgrimage, and the subject of countless works of art, including Hokusai's prints."
+      ],
+      "sources": ["unesco-fuji"]
+    }
+  ],
+  "sources": {
+    "britannica-japan": { "title": "Japan", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Japan", "accessed": "2026-11-09" },
+    "britannica-meiji": { "title": "Meiji Restoration", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Meiji-Restoration", "accessed": "2026-11-09" },
+    "unesco-himeji": { "title": "Himeji-jo", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/661", "accessed": "2026-11-09" },
+    "unesco-kyoto": { "title": "Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/688", "accessed": "2026-11-09" },
+    "unesco-nara": { "title": "Historic Monuments of Ancient Nara", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/870", "accessed": "2026-11-09" },
+    "unesco-itsukushima": { "title": "Itsukushima Shinto Shrine", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/776", "accessed": "2026-11-09" },
+    "unesco-hiroshima": { "title": "Hiroshima Peace Memorial (Genbaku Dome)", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/775", "accessed": "2026-11-09" },
+    "unesco-fuji": { "title": "Fujisan, sacred place and source of artistic inspiration", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1418", "accessed": "2026-11-09" },
+    "wb-pop": { "title": "Population, total (SP.POP.TOTL)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=JP", "accessed": "2026-11-09" },
+    "wb-land": { "title": "Land area, sq. km (AG.LND.TOTL.K2)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/AG.LND.TOTL.K2?locations=JP", "accessed": "2026-11-09" }
+  }
+}

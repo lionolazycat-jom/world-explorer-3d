@@ -2,9 +2,25 @@
 
 An interactive 3D globe for exploring world history and geography in the browser. It needs no installation, no account and no paid API keys.
 
-**Status: Milestone 1 (The Globe).** See [docs/ROADMAP.md](docs/ROADMAP.md) for what is built and what comes next.
+**Status: Milestones 1–3 (Globe, Country Exploration, History & Timeline).** See [docs/ROADMAP.md](docs/ROADMAP.md) for what is built and what comes next.
 
 ## What works now
+
+**Milestone 2 — Country exploration** (Malaysia, Philippines, Japan, Egypt, Italy)
+- Tabs for Overview, History and Places.
+- Overview: population and land area from the World Bank, with the year of each figure; languages, currency, government, geography, climate and culture.
+- History: 12–13 entries per country, in order. Each one has a confidence label (established / probable / debated / legend / debunked), notes where historians disagree, sources, *Show on globe* and *Open in timeline*.
+- Places: 30 famous places shown as blue pins, each with its own page, UNESCO details and sources. Landmarks are searchable (e.g. "colosseum").
+
+**Milestone 3 — History & timeline**
+- Timeline: a year slider from 10,000 BCE to today, 12 period chips, and arrows that step between the available historical maps.
+- Historical borders from historical-basemaps. They're shaded by how precise each border is, with an option to show modern borders on top. Tap any area to see the polity and a precision note.
+- Events from the researched countries appear as pins, coloured by confidence.
+- Routes: the Silk Road, the maritime spice route and the Manila–Acapulco galleons, drawn as animated great-circle lines and labelled as schematic.
+- Story mode: *The rise and fall of Rome*, nine steps with the Roman territory highlighted.
+- Time travel works in both 3D and Lite mode.
+
+**Milestone 1 — The globe**
 
 - A 3D Earth (NASA Blue Marble or night-lights imagery) with an atmosphere glow, gold country borders, smooth rotation and zoom, and slow auto-rotation when idle.
 - Every country and territory is clickable, using Natural Earth outlines at 1:110m. 1:50m detail loads in the background, so small states such as Singapore, Vatican City and the island nations become tappable dots.
@@ -47,7 +63,14 @@ js/globe/globe2d.js   d3-geo canvas engine (Lite)
 js/ui/                panel/bottom sheet, view templates, toasts, starfield
 js/storage/prefs.js   localStorage: settings, favourites, visited
 data/countries.json   capitals, ISO codes, UN regions, status notes
+data/content/         researched content: countries/*.json, periods, routes, stories
+js/data/content.js    content loading, confidence labels, year formatting
+js/data/history.js    historical-basemaps snapshots (rewound for d3), colours
 ```
+
+### Adding a country
+
+Copy `data/content/countries/MYS.json`, fill it in with sources, and add the ISO alpha-3 code to `data/content/index.json`. No code changes are needed.
 
 Both globe engines expose the same interface (`flyTo`, `setSelected`, `zoomBy`, `resize`, …), so later features work in 3D and Lite mode alike.
 

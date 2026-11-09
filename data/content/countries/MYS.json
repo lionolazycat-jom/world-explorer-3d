@@ -1,0 +1,252 @@
+{
+  "id": "MYS",
+  "updated": "2026-11-09",
+  "review_status": "Researched for Milestone 2; claims carry sources and confidence labels.",
+  "overview": {
+    "summary": "Malaysia sits astride the Strait of Malacca, one of the busiest sea lanes on Earth, and that position has shaped its whole story. It is split between the Malay Peninsula and the north-western third of Borneo, separated by the South China Sea.",
+    "stats": {
+      "population": { "value": 35977838, "year": 2025, "source": "wb-pop" },
+      "land_area_km2": { "value": 328550, "year": 2024, "source": "wb-land" }
+    },
+    "languages": ["Malay (Bahasa Malaysia) — official national language", "English, Chinese varieties, Tamil and many Indigenous languages are widely spoken"],
+    "currency": { "code": "MYR", "name": "Malaysian ringgit" },
+    "government": "Federal constitutional monarchy with an elected king (Yang di-Pertuan Agong) who rotates among nine state rulers",
+    "geography": [
+      "Two regions: Peninsular Malaysia and East Malaysia (Sabah and Sarawak) on Borneo",
+      "Mount Kinabalu in Sabah is the country's highest peak",
+      "Large areas of tropical rainforest, among the oldest on Earth"
+    ],
+    "climate": "Equatorial: hot and humid all year, with monsoon seasons bringing the heaviest rain (roughly November–March on the east coast of the peninsula).",
+    "culture": [
+      "A multi-ethnic society of Malay, Chinese, Indian and many Indigenous peoples, especially in Sabah and Sarawak",
+      "The rotating monarchy is unusual in the world: the king is chosen from among nine hereditary state rulers for a five-year term",
+      "Melaka and George Town's shophouses, mosques, temples and churches reflect 500 years of trade between East and West"
+    ],
+    "sources": ["britannica-malaysia", "wb-pop", "wb-land"]
+  },
+  "history": [
+    {
+      "id": "mys-lenggong",
+      "era": "Prehistory",
+      "y": -9000, "display": "c. 11,000 years ago (and far older tools)",
+      "title": "Perak Man and the Lenggong Valley",
+      "text": "In the Lenggong Valley of Perak, archaeologists found a skeleton now called Perak Man — described by UNESCO as Southeast Asia's oldest, most complete human skeleton. The valley's sites preserve one of the longest records of early humans in a single place.",
+      "confidence": "established",
+      "location": { "lat": 5.10, "lng": 100.97, "label": "Lenggong Valley, Perak" },
+      "sources": ["unesco-lenggong-decision", "unesco-lenggong"]
+    },
+    {
+      "id": "mys-kedah-tua",
+      "era": "Early kingdoms",
+      "y": 100, "y2": 500, "display": "1st–5th century CE (some claim much earlier)",
+      "title": "Kedah Tua and the iron smelters of Sungai Batu",
+      "text": "In the Bujang Valley of Kedah, archaeologists have uncovered iron-smelting furnaces, jetties and ritual monuments at Sungai Batu. Peer-reviewed dating places large-scale iron smelting there in the first to fifth centuries CE, evidence of an early trading port. Some researchers argue the site began as early as the 6th–8th century BCE; that claim is contested by other specialists.",
+      "confidence": "debated",
+      "note": "The early-date claim (sometimes given as 535 BCE or 788 BCE) is disputed. The 1st–5th century CE range is the better-supported reading.",
+      "location": { "lat": 5.70, "lng": 100.42, "label": "Sungai Batu, Bujang Valley" },
+      "sources": ["pennds-sungai-batu", "far-2024-sbac"]
+    },
+    {
+      "id": "mys-srivijaya",
+      "era": "Kingdoms and empires",
+      "y": 650, "y2": 1250, "display": "7th–13th century",
+      "title": "The age of Srivijaya",
+      "text": "Srivijaya, a Buddhist maritime power based at Palembang in Sumatra, dominated trade through the Strait of Malacca for centuries, and its influence reached ports on the Malay Peninsula. By the end of the 12th century it had shrunk to a small kingdom.",
+      "confidence": "established",
+      "note": "How far Srivijaya's direct control extended on the peninsula is uncertain; it is often described as a network of allied ports rather than a state with fixed borders.",
+      "location": { "lat": -2.99, "lng": 104.76, "label": "Palembang (Srivijaya's centre)" },
+      "sources": ["britannica-srivijaya", "britannica-palembang"]
+    },
+    {
+      "id": "mys-melaka-founding",
+      "era": "Melaka Sultanate",
+      "y": 1400, "display": "c. 1400",
+      "title": "Parameswara founds Melaka",
+      "text": "A prince from Palembang named Parameswara settled at Melaka around 1400. Its sheltered harbour on the strait quickly drew traders from China, India, Arabia and the archipelago. Ming Chinese records confirm Melaka's rise in the early 1400s.",
+      "confidence": "debated",
+      "note": "The founding year is debated (scholars propose the 1390s to c. 1402), as is whether Parameswara and the ruler later called Iskandar Shah were the same person. The famous story of a mouse-deer kicking the king's hunting dog comes from the Malay Annals and is legend.",
+      "location": { "lat": 2.194, "lng": 102.249, "label": "Melaka" },
+      "sources": ["britannica-malacca-sultanate", "britannica-paramesvara", "jseas-melaka-debate"]
+    },
+    {
+      "id": "mys-melaka-golden-age",
+      "era": "Melaka Sultanate",
+      "y": 1450, "display": "15th century",
+      "title": "Melaka's golden age",
+      "text": "At its height the Melaka Sultanate controlled most of the peninsula and the east coast of Sumatra. Its rulers adopted Islam, and Melaka became a centre for spreading the faith across the region. Its court traditions, law and language still echo in Malay institutions today.",
+      "confidence": "established",
+      "location": { "lat": 2.194, "lng": 102.249, "label": "Melaka" },
+      "sources": ["britannica-malacca-sultanate", "malaysia-gov-history"]
+    },
+    {
+      "id": "mys-1511",
+      "era": "Colonial period",
+      "y": 1511, "display": "1511",
+      "title": "Portugal captures Melaka",
+      "text": "A Portuguese fleet under Afonso de Albuquerque seized Melaka in 1511, ending the sultanate's rule there and beginning the colonial era. The sultan's line retreated south and founded the Johor sultanate.",
+      "confidence": "established",
+      "location": { "lat": 2.191, "lng": 102.250, "label": "A Famosa, Melaka" },
+      "sources": ["britannica-melaka", "malaysia-gov-history"]
+    },
+    {
+      "id": "mys-1641",
+      "era": "Colonial period",
+      "y": 1641, "display": "1641",
+      "title": "The Dutch take Melaka",
+      "text": "After a long siege, the Dutch East India Company, allied with Johor, captured Melaka from the Portuguese in January 1641. The Dutch ruled it until the British took over in the 1790s.",
+      "confidence": "established",
+      "location": { "lat": 2.194, "lng": 102.249, "label": "Melaka" },
+      "sources": ["britannica-melaka", "malaysia-gov-history"]
+    },
+    {
+      "id": "mys-1824",
+      "era": "Colonial period",
+      "y": 1824, "display": "1824",
+      "title": "The Anglo-Dutch Treaty divides the region",
+      "text": "Britain and the Netherlands split their spheres of influence along the Strait of Malacca: lands to the north, including Melaka, went to Britain; Sumatra and the islands to the south went to the Dutch. This line still roughly separates Malaysia from Indonesia today.",
+      "confidence": "established",
+      "location": { "lat": 2.5, "lng": 101.5, "label": "Strait of Malacca" },
+      "sources": ["malaysia-gov-history", "britannica-malaysia"]
+    },
+    {
+      "id": "mys-ww2",
+      "era": "World War II",
+      "y": 1941, "y2": 1945, "display": "December 1941 – 1945",
+      "title": "Japanese invasion and occupation",
+      "text": "Japanese forces landed in northern Malaya in December 1941 and overran the peninsula within weeks, taking Singapore in February 1942. The occupation lasted until Japan's surrender in 1945.",
+      "confidence": "established",
+      "location": { "lat": 6.13, "lng": 102.24, "label": "Kota Bharu, Kelantan (first landings)" },
+      "sources": ["britannica-malaysia"]
+    },
+    {
+      "id": "mys-merdeka",
+      "era": "Independence",
+      "y": 1957, "display": "31 August 1957",
+      "title": "Merdeka!",
+      "text": "The Federation of Malaya gained independence from Britain on 31 August 1957. Tunku Abdul Rahman read the proclamation at Merdeka Stadium in Kuala Lumpur and led the crowd in shouting \"Merdeka\" (freedom) seven times.",
+      "confidence": "established",
+      "location": { "lat": 3.1395, "lng": 101.7006, "label": "Merdeka Stadium, Kuala Lumpur" },
+      "sources": ["malaymail-two-national-days", "britannica-malaysia"]
+    },
+    {
+      "id": "mys-1963",
+      "era": "Independence",
+      "y": 1963, "display": "16 September 1963",
+      "title": "Malaysia is formed",
+      "text": "Malaya joined with Sabah (North Borneo), Sarawak and Singapore to form Malaysia. The date was pushed back from 31 August so a United Nations mission could report on whether people in Sabah and Sarawak supported joining.",
+      "confidence": "established",
+      "location": { "lat": 3.1395, "lng": 101.7006, "label": "Kuala Lumpur" },
+      "sources": ["malaymail-malaysia-day", "thestar-separation"]
+    },
+    {
+      "id": "mys-1965",
+      "era": "Modern Malaysia",
+      "y": 1965, "display": "9 August 1965",
+      "title": "Singapore leaves the federation",
+      "text": "After two years of political tension, Singapore separated from Malaysia and became an independent republic on 9 August 1965.",
+      "confidence": "established",
+      "location": { "lat": 1.29, "lng": 103.85, "label": "Singapore" },
+      "sources": ["thestar-separation", "malaymail-malaysia-day"]
+    }
+  ],
+  "places": [
+    {
+      "id": "melaka",
+      "name": "Historic City of Melaka",
+      "type": "Historic city · UNESCO World Heritage",
+      "lat": 2.1944, "lng": 102.2486,
+      "unesco": { "id": 1223, "year": 2008 },
+      "summary": "The port where the Melaka Sultanate rose, then fell to Portugal, the Netherlands and Britain, each leaving its mark.",
+      "details": [
+        "Melaka's townscape preserves layers from the 15th-century sultanate and the Portuguese and Dutch periods that followed, from the gate of the Portuguese fortress (A Famosa) to the red Dutch Stadthuys.",
+        "Together with George Town it is listed by UNESCO as a product of more than 500 years of trade and cultural exchange between East and West."
+      ],
+      "sources": ["unesco-melaka", "britannica-melaka"]
+    },
+    {
+      "id": "george-town",
+      "name": "George Town, Penang",
+      "type": "Historic city · UNESCO World Heritage",
+      "lat": 5.4199, "lng": 100.3433,
+      "unesco": { "id": 1223, "year": 2008 },
+      "summary": "A British trading port founded in 1786, famous for its shophouses, clan houses and street food.",
+      "details": [
+        "George Town was founded by a British trader in 1786 and grew into a cosmopolitan port. UNESCO cites its government and commercial buildings as representing the British era from the end of the 18th century.",
+        "It shares one World Heritage listing with Melaka."
+      ],
+      "sources": ["unesco-melaka", "unesco-melaka-icomos"]
+    },
+    {
+      "id": "lenggong",
+      "name": "Lenggong Valley",
+      "type": "Archaeological site · UNESCO World Heritage",
+      "lat": 5.10, "lng": 100.97,
+      "unesco": { "id": 1396, "year": 2012 },
+      "summary": "Home of Perak Man and one of the longest records of early humans in one place.",
+      "details": [
+        "UNESCO describes four archaeological sites in two clusters spanning close to 2 million years — one of the longest records of early humans in a single locality, and the oldest outside Africa.",
+        "Perak Man, found in Gua Gunung Runtuh cave, is Southeast Asia's oldest, most complete human skeleton."
+      ],
+      "sources": ["unesco-lenggong", "unesco-lenggong-decision"]
+    },
+    {
+      "id": "bujang-valley",
+      "name": "Bujang Valley & Sungai Batu",
+      "type": "Archaeological site",
+      "lat": 5.70, "lng": 100.42,
+      "summary": "Ancient Kedah's port and iron industry, with temple ruins and smelting furnaces.",
+      "details": [
+        "The Sungai Batu complex has revealed iron-smelting furnaces, jetties and ritual monuments. Dating of the iron-smelting site points to the 1st–5th centuries CE.",
+        "Claims that the settlement dates to the 6th–8th century BCE have been published but remain disputed."
+      ],
+      "sources": ["pennds-sungai-batu", "far-2024-sbac"]
+    },
+    {
+      "id": "kinabalu",
+      "name": "Kinabalu Park",
+      "type": "Natural wonder · UNESCO World Heritage",
+      "lat": 6.075, "lng": 116.558,
+      "unesco": { "id": 1012, "year": 2000 },
+      "summary": "Malaysia's highest mountain, surrounded by one of the richest plant communities on Earth.",
+      "details": [
+        "Mount Kinabalu in Sabah rises above Borneo's rainforest. Its slopes hold a remarkable range of habitats from lowland forest to alpine meadow, with very high plant diversity."
+      ],
+      "sources": ["unesco-kinabalu"]
+    },
+    {
+      "id": "mulu",
+      "name": "Gunung Mulu National Park",
+      "type": "Natural wonder · UNESCO World Heritage",
+      "lat": 4.05, "lng": 114.93,
+      "unesco": { "id": 1013, "year": 2000 },
+      "summary": "Vast limestone caves and razor-sharp pinnacles deep in Sarawak's rainforest.",
+      "details": [
+        "Mulu is known for enormous cave systems, including the Sarawak Chamber, one of the largest known cave chambers in the world, and for limestone pinnacles rising out of the forest."
+      ],
+      "sources": ["unesco-mulu"]
+    }
+  ],
+  "sources": {
+    "britannica-malaysia": { "title": "Malaysia", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Malaysia", "accessed": "2026-11-09" },
+    "britannica-melaka": { "title": "Melaka (Malacca)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Melaka-Malaysia", "accessed": "2026-11-09" },
+    "britannica-malacca-sultanate": { "title": "Sultanate of Malacca", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/print/article/359413", "accessed": "2026-11-09" },
+    "britannica-paramesvara": { "title": "Paramesvara", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Paramesvara", "accessed": "2026-11-09" },
+    "britannica-srivijaya": { "title": "Srivijaya empire", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Srivijaya-empire", "accessed": "2026-11-09" },
+    "britannica-palembang": { "title": "Palembang", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Palembang", "accessed": "2026-11-09" },
+    "jseas-melaka-debate": { "title": "When was Melaka founded and was it known earlier by another name? The Ferrand–Rouffaer debate (1918–21)", "publisher": "Journal of Southeast Asian Studies, Cambridge University Press", "url": "https://www.cambridge.org/core/journals/journal-of-southeast-asian-studies/article/abs/when-was-melaka-founded-and-was-it-known-earlier-by-another-name-exploring-the-debate-between-gabriel-ferrand-and-gerret-pieter-rouffaer-191821-and-its-long-echo-in-historiography/CAA1748860BCD9B6247F6BFA6231278A", "accessed": "2026-11-09" },
+    "malaysia-gov-history": { "title": "Malaysian History", "publisher": "Government of Malaysia (malaysia.gov.my)", "url": "https://www.malaysia.gov.my/en/government/learn-about-malaysia/malaysian-history", "accessed": "2026-11-09" },
+    "pennds-sungai-batu": { "title": "Smelting technology at the Sungai Batu SB2A site, Bujang Valley (dated 1st–5th c. CE)", "publisher": "Archaeobib, Penn Digital Scholarship", "url": "https://pennds.org/archaeobib/items/show/36750", "accessed": "2026-11-09" },
+    "far-2024-sbac": { "title": "Evolution of the 'ancient Kedah': urban forms at Sungai Batu Archaeological Complex", "publisher": "Frontiers of Architectural Research (2024), via DOAJ", "url": "https://doaj.org/article/9b9aaa3ef0eb4f8d973e7a0608446d3d", "accessed": "2026-11-09" },
+    "unesco-lenggong": { "title": "Archaeological Heritage of the Lenggong Valley", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1396", "accessed": "2026-11-09" },
+    "unesco-lenggong-decision": { "title": "Decision 36 COM 8B.25 — Lenggong Valley", "publisher": "UNESCO World Heritage Committee", "url": "https://whc.unesco.org/en/decisions/4796", "accessed": "2026-11-09" },
+    "unesco-melaka": { "title": "Melaka and George Town, Historic Cities of the Straits of Malacca", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1223", "accessed": "2026-11-09" },
+    "unesco-melaka-icomos": { "title": "ICOMOS evaluation, Melaka and George Town (No 1223)", "publisher": "UNESCO / ICOMOS", "url": "https://whc.unesco.org/document/152087", "accessed": "2026-11-09" },
+    "unesco-kinabalu": { "title": "Kinabalu Park", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1012", "accessed": "2026-11-09" },
+    "unesco-mulu": { "title": "Gunung Mulu National Park", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1013", "accessed": "2026-11-09" },
+    "malaymail-two-national-days": { "title": "Merdeka Day and Malaysia Day: so why do we have two national days?", "publisher": "Malay Mail (16 Sep 2024)", "url": "https://www.malaymail.com/news/malaysia/2024/09/16/merdeka-day-and-malaysia-day-so-why-do-we-have-two-national-days/150196", "accessed": "2026-11-09" },
+    "malaymail-malaysia-day": { "title": "10 things you might not know about Malaysia Day", "publisher": "Malay Mail (16 Sep 2018)", "url": "https://www.malaymail.com/news/malaysia/2018/09/16/10-things-you-might-not-know-about-malaysia-day-video/1673107", "accessed": "2026-11-09" },
+    "thestar-separation": { "title": "The story of a separation", "publisher": "The Star (3 Aug 2025)", "url": "https://www.thestar.com.my/news/focus/2025/08/03/the-story-of-a-separation", "accessed": "2026-11-09" },
+    "wb-pop": { "title": "Population, total (SP.POP.TOTL)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MY", "accessed": "2026-11-09" },
+    "wb-land": { "title": "Land area, sq. km (AG.LND.TOTL.K2)", "publisher": "World Bank Open Data (CC BY 4.0)", "url": "https://data.worldbank.org/indicator/AG.LND.TOTL.K2?locations=MY", "accessed": "2026-11-09" }
+  }
+}

@@ -3,7 +3,7 @@
 
 export const APP = {
   name: 'World Explorer 3D',
-  version: '0.1.0-m1',
+  version: '0.3.0-m3',
   storagePrefix: 'we3d.',
   dataReviewed: '9 Nov 2026'
 };
@@ -22,6 +22,9 @@ export const CDN = {
     night: `${JSD}/three-globe@2/example/img/earth-night.jpg`,
     bump: `${JSD}/three-globe@2/example/img/earth-topology.png`
   },
+  // Historical borders: aourednik/historical-basemaps (GPL-3.0), approximate reconstructions.
+  basemapIndex: `${JSD}/gh/aourednik/historical-basemaps@master/index.json`,
+  basemapFile: f => `${JSD}/gh/aourednik/historical-basemaps@master/geojson/${f}`,
   flag: (a2, w = 160) => a2 ? `https://flagcdn.com/w${w}/${a2.toLowerCase()}.png` : null
 };
 

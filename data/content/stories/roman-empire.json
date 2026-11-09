@@ -1,0 +1,39 @@
+{
+  "id": "roman-empire",
+  "title": "The rise and fall of Rome",
+  "intro": "Step through a thousand years of Roman history. Highlighted shapes come from an approximate historical reconstruction (historical-basemaps), not surveyed borders. Ancient frontiers were zones of control rather than precise lines.",
+  "match": "^(Rome|Roman|Western Roman|Eastern Roman)",
+  "steps": [
+    { "year": -500, "label": "c. 500 BCE", "view": { "lat": 41.9, "lng": 12.5, "altitude": 0.55 },
+      "title": "A city-state in central Italy",
+      "text": "Rome has recently become a republic (traditionally 509 BCE) and controls only a small area of Latium, surrounded by Etruscans, Latins and Italic peoples." },
+    { "year": -300, "label": "c. 300 BCE", "view": { "lat": 41.5, "lng": 13.5, "altitude": 0.75 },
+      "title": "Mastering Italy",
+      "text": "Through wars and alliances with neighbouring peoples, the Roman Republic comes to dominate central and southern Italy." },
+    { "year": -200, "label": "c. 200 BCE", "view": { "lat": 39, "lng": 10, "altitude": 1.1 },
+      "title": "Victory over Carthage",
+      "text": "After the Second Punic War (218–201 BCE), Rome controls Sicily, Sardinia, Corsica and parts of Spain, and becomes the leading power of the western Mediterranean." },
+    { "year": -100, "label": "c. 100 BCE", "view": { "lat": 38, "lng": 15, "altitude": 1.3 },
+      "title": "A Mediterranean power",
+      "text": "Carthage and Corinth were destroyed in 146 BCE. Rome now rules Greece, North Africa around Carthage and much of Spain, but the Republic is torn by civil strife." },
+    { "year": -1, "label": "1 BCE", "view": { "lat": 40, "lng": 15, "altitude": 1.5 },
+      "title": "The empire of Augustus",
+      "text": "Caesar's conquest of Gaul and the annexation of Egypt (30 BCE) have made the Mediterranean a 'Roman lake'. Augustus rules as the first emperor." },
+    { "year": 100, "label": "c. 100 CE", "view": { "lat": 40, "lng": 18, "altitude": 1.6 },
+      "title": "Near the peak",
+      "text": "Under Trajan the empire reaches its greatest extent by his death in 117 CE, from northern Britain to Mesopotamia, ruling perhaps 50–60 million people." },
+    { "year": 300, "label": "c. 300 CE", "view": { "lat": 40, "lng": 18, "altitude": 1.6 },
+      "title": "Crisis and the Tetrarchy",
+      "text": "After a century of civil wars and invasions, Diocletian splits authority among four rulers. The reconstruction shows the empire divided into their zones." },
+    { "year": 400, "label": "c. 400 CE", "view": { "lat": 40, "lng": 18, "altitude": 1.6 },
+      "title": "East and West",
+      "text": "From 395 CE the empire is permanently divided into a Western and an Eastern (Byzantine) half, each with its own emperor." },
+    { "year": 500, "label": "c. 500 CE", "view": { "lat": 38, "lng": 25, "altitude": 1.6 },
+      "title": "The West falls, the East endures",
+      "text": "The last Western emperor was deposed in 476. Germanic kingdoms now rule the West, while the Eastern Roman Empire continues from Constantinople until 1453." }
+  ],
+  "sources": [
+    { "title": "Ancient Rome", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/ancient-Rome", "accessed": "2026-11-09" },
+    { "title": "historical-basemaps (A. Ourednik et al.), GPL-3.0 — approximate reconstruction", "publisher": "GitHub", "url": "https://github.com/aourednik/historical-basemaps", "accessed": "2026-11-09" }
+  ]
+}

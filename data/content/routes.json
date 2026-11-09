@@ -1,0 +1,85 @@
+{
+  "note": "Routes are schematic: they connect well-documented stops with smooth great-circle lines. Real journeys followed many branching paths that changed over time.",
+  "routes": [
+    {
+      "id": "silk-road",
+      "name": "The Silk Road (overland)",
+      "start": -130, "end": 1500,
+      "display": "c. 2nd century BCE – 15th century CE",
+      "confidence": "schematic",
+      "color": "#f3d38a",
+      "summary": "A web of caravan routes linking China with Central Asia, Persia and the Mediterranean. Silk, spices, paper, glass and ideas — including Buddhism and Islam — travelled along it.",
+      "details": [
+        "Han China's missions to Central Asia under the envoy Zhang Qian in the 2nd century BCE are traditionally seen as opening the route.",
+        "Few traders travelled the whole way; goods passed from merchant to merchant across oasis cities such as Dunhuang, Kashgar and Samarkand.",
+        "UNESCO's 2014 World Heritage listing covers a 5,000 km section from Chang'an to Central Asia."
+      ],
+      "stops": [
+        { "name": "Chang'an (Xi'an)", "lat": 34.26, "lng": 108.94, "note": "Capital of the Han and Tang dynasties and the eastern starting point." },
+        { "name": "Dunhuang", "lat": 40.14, "lng": 94.66, "note": "Oasis gateway to the deserts, famous for the Buddhist Mogao Caves." },
+        { "name": "Kashgar", "lat": 39.47, "lng": 75.99, "note": "Meeting point of routes around the Taklamakan Desert." },
+        { "name": "Samarkand", "lat": 39.65, "lng": 66.97, "note": "A great Sogdian trading city in Central Asia." },
+        { "name": "Bukhara", "lat": 39.77, "lng": 64.42, "note": "Major oasis city and later a centre of Islamic learning." },
+        { "name": "Merv", "lat": 37.66, "lng": 61.84, "note": "One of the great cities of Central Asia, in today's Turkmenistan." },
+        { "name": "Ctesiphon / Baghdad", "lat": 33.31, "lng": 44.36, "note": "Persian capital Ctesiphon, later Abbasid Baghdad nearby." },
+        { "name": "Palmyra", "lat": 34.55, "lng": 38.27, "note": "Desert caravan city linking Mesopotamia and Syria." },
+        { "name": "Antioch", "lat": 36.20, "lng": 36.16, "note": "Mediterranean gateway in Roman Syria." },
+        { "name": "Constantinople", "lat": 41.01, "lng": 28.98, "note": "Byzantine capital where East met West." }
+      ],
+      "sources": [
+        { "title": "Silk Road", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Silk-Road-trade-route", "accessed": "2026-11-09" },
+        { "title": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1442", "accessed": "2026-11-09" }
+      ]
+    },
+    {
+      "id": "maritime-spice",
+      "name": "The maritime spice route",
+      "start": 700, "end": 1600,
+      "display": "c. 8th – 16th century (routes varied)",
+      "confidence": "schematic",
+      "color": "#7fd1ff",
+      "summary": "Sea lanes carried spices, porcelain, textiles and pepper between China, Southeast Asia, India, Arabia and East Africa. The Strait of Malacca was the chokepoint that made Srivijaya and later Melaka rich.",
+      "details": [
+        "Monsoon winds set the sailing seasons: ships waited in ports such as Melaka for the winds to change, which turned them into great markets.",
+        "Cloves, nutmeg and mace grew only in the Maluku Islands of eastern Indonesia, which made them extremely valuable."
+      ],
+      "stops": [
+        { "name": "Quanzhou", "lat": 24.87, "lng": 118.68, "note": "Great Chinese port of the Song and Yuan dynasties." },
+        { "name": "Guangzhou", "lat": 23.13, "lng": 113.26, "note": "Southern China's long-standing gateway to the sea." },
+        { "name": "Champa coast (Hội An)", "lat": 15.88, "lng": 108.33, "note": "Trading ports on the coast of today's Vietnam." },
+        { "name": "Melaka", "lat": 2.19, "lng": 102.25, "note": "The 15th-century entrepôt at the heart of the strait." },
+        { "name": "Galle", "lat": 6.03, "lng": 80.22, "note": "Port on Sri Lanka's southern coast." },
+        { "name": "Calicut (Kozhikode)", "lat": 11.25, "lng": 75.78, "note": "Pepper port on India's Malabar Coast; Vasco da Gama arrived in 1498." },
+        { "name": "Hormuz", "lat": 27.06, "lng": 56.46, "note": "Gateway to the Persian Gulf." },
+        { "name": "Aden", "lat": 12.78, "lng": 45.03, "note": "Entrance to the Red Sea." },
+        { "name": "Alexandria", "lat": 31.2, "lng": 29.92, "note": "Spices reached the Mediterranean via the Red Sea and Egypt." }
+      ],
+      "sources": [
+        { "title": "Srivijaya empire", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Srivijaya-empire", "accessed": "2026-11-09" },
+        { "title": "Melaka and George Town, Historic Cities of the Straits of Malacca", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1223", "accessed": "2026-11-09" }
+      ]
+    },
+    {
+      "id": "manila-galleon",
+      "name": "The Manila–Acapulco galleons",
+      "start": 1565, "end": 1815,
+      "display": "1565–1815",
+      "confidence": "schematic",
+      "color": "#ff9f7a",
+      "summary": "Once or twice a year, Spanish galleons crossed the Pacific between Manila and Acapulco — Asian silk and porcelain went east, American silver went west. It was one of the first truly global trade routes.",
+      "details": [
+        "The return route from Asia was found in 1565 by Andrés de Urdaneta, who sailed north to catch westerly winds and the Kuroshio current.",
+        "The westbound voyage from Acapulco crossed the Pacific further south with the trade winds; this line is simplified."
+      ],
+      "stops": [
+        { "name": "Manila", "lat": 14.59, "lng": 120.97, "note": "Hub where Chinese junks brought silk and porcelain." },
+        { "name": "North Pacific (Kuroshio current)", "lat": 36.0, "lng": 160.0, "note": "Eastbound ships sailed north to catch the westerlies." },
+        { "name": "California coast", "lat": 36.6, "lng": -122.0, "note": "Galleons often sighted the California coast before turning south." },
+        { "name": "Acapulco", "lat": 16.85, "lng": -99.88, "note": "Pacific port of New Spain (Mexico)." }
+      ],
+      "sources": [
+        { "title": "Manila galleon", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/technology/Manila-galleon", "accessed": "2026-11-09" }
+      ]
+    }
+  ]
+}

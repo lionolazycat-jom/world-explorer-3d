@@ -37,7 +37,7 @@ export async function loadWorld(url) {
   fc.features.forEach((f, i) => {
     f.properties = f.properties || {};
     f.properties._nb = nb[i] || [];
-    prepare(f);
+    prepareFeature(f);
   });
   return fc.features;
 }
@@ -66,7 +66,7 @@ function lonSpan(b) {
   return e >= w ? e - w : e + 360 - w;
 }
 
-function prepare(f) {
+export function prepareFeature(f) {
   const p = f.properties;
   if (!f.geometry) { p._ok = false; return; }
   p._ok = true;

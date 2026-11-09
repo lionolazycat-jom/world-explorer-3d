@@ -1,0 +1,29 @@
+{
+  "note": "These period names come mainly from European history-writing and overlap in time. Other regions use their own periods (for example Japan's Heian or Edo periods), which appear in each country's history.",
+  "periods": [
+    { "id": "prehistory", "label": "Prehistory", "start": -10000, "end": -3000, "snapshot": -5000, "view": { "lat": 25, "lng": 40, "altitude": 2.4 },
+      "blurb": "Farming began independently in several regions after the last Ice Age, and the first villages and towns appeared." },
+    { "id": "ancient", "label": "Ancient civilisations", "start": -3000, "end": -800, "snapshot": -1500, "view": { "lat": 28, "lng": 50, "altitude": 2.2 },
+      "blurb": "Writing, cities and kingdoms emerged along great rivers — the Nile, Tigris and Euphrates, Indus and Yellow River." },
+    { "id": "classical", "label": "Classical antiquity", "start": -800, "end": 500, "snapshot": 100, "view": { "lat": 35, "lng": 40, "altitude": 2.3 },
+      "blurb": "The age of Greece, Rome, Persia, the Maurya and Gupta empires of India, and Han China." },
+    { "id": "middle-ages", "label": "Middle Ages", "start": 500, "end": 1500, "snapshot": 1200, "view": { "lat": 30, "lng": 60, "altitude": 2.4 },
+      "blurb": "Islamic caliphates, the Byzantine Empire, Tang and Song China, the Mongol Empire, and Southeast Asia's maritime powers such as Srivijaya." },
+    { "id": "renaissance", "label": "Renaissance", "start": 1350, "end": 1600, "snapshot": 1492, "view": { "lat": 44, "lng": 12, "altitude": 1.6 },
+      "blurb": "A revival of classical learning and art that began in Italian city-states and spread across Europe." },
+    { "id": "exploration", "label": "Age of Exploration", "start": 1400, "end": 1650, "snapshot": 1530, "view": { "lat": 10, "lng": 20, "altitude": 2.6 },
+      "blurb": "European ships reached the Americas and sailed around Africa into the Indian Ocean; Melaka fell to Portugal in 1511." },
+    { "id": "colonial", "label": "Colonial era", "start": 1500, "end": 1975, "snapshot": 1880, "view": { "lat": 5, "lng": 60, "altitude": 2.6 },
+      "blurb": "European powers built empires across the Americas, Africa and Asia; most colonies won independence after 1945." },
+    { "id": "industrial", "label": "Industrial Revolution", "start": 1760, "end": 1900, "snapshot": 1880, "view": { "lat": 50, "lng": 0, "altitude": 2.0 },
+      "blurb": "Steam power, factories and railways transformed Britain, then Europe, North America and Japan." },
+    { "id": "ww1", "label": "World War I", "start": 1914, "end": 1918, "snapshot": 1914, "view": { "lat": 48, "lng": 15, "altitude": 1.8 },
+      "blurb": "A global war centred on Europe that ended four empires: the German, Austro-Hungarian, Russian and Ottoman." },
+    { "id": "ww2", "label": "World War II", "start": 1939, "end": 1945, "snapshot": 1938, "view": { "lat": 30, "lng": 60, "altitude": 2.6 },
+      "blurb": "The deadliest conflict in history, fought across Europe, Africa, Asia and the Pacific." },
+    { "id": "cold-war", "label": "Cold War", "start": 1947, "end": 1991, "snapshot": 1960, "view": { "lat": 40, "lng": 30, "altitude": 2.6 },
+      "blurb": "Rivalry between the United States and the Soviet Union, and the era when most of Asia and Africa became independent." },
+    { "id": "contemporary", "label": "Contemporary", "start": 1991, "end": 2026, "snapshot": 2010, "view": { "lat": 15, "lng": 100, "altitude": 2.4 },
+      "blurb": "The world since the end of the Cold War: globalisation, the internet and new regional powers." }
+  ]
+}

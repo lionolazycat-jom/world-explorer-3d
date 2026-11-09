@@ -1,0 +1,6 @@
+{
+  "countries": ["MYS", "PHL", "JPN", "EGY", "ITA"],
+  "stories": [
+    { "id": "roman-empire", "title": "The rise and fall of Rome", "countries": ["ITA"] }
+  ]
+}

@@ -41,6 +41,16 @@ export function show(html, { sheet = 'half', focus = false } = {}) {
   if (focus) body.focus({ preventScroll: true });
 }
 
+// Re-render content in place (keeps scroll position, no entrance animation).
+export function update(html) {
+  const top = body.scrollTop;
+  const active = document.activeElement;
+  const activeId = active && body.contains(active) ? active.id : null;
+  body.innerHTML = html;
+  body.scrollTop = top;
+  if (activeId) document.getElementById(activeId)?.focus({ preventScroll: true });
+}
+
 export function close() { setState('closed'); }
 export function bodyEl() { return body; }
 

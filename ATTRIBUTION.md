@@ -10,8 +10,11 @@
 | 3D engine | [three.js](https://threejs.org/) (bundled in globe.gl) | MIT |
 | Geo maths, Lite globe | [d3-geo](https://github.com/d3/d3-geo) | ISC |
 | TopoJSON decoding | [topojson-client](https://github.com/topojson/topojson-client) | ISC |
+| Historical borders | [historical-basemaps](https://github.com/aourednik/historical-basemaps) by A. Ourednik et al., loaded at runtime via jsDelivr | GPL-3.0 |
+| Population & land area | [World Bank Open Data](https://data.worldbank.org/) (SP.POP.TOTL, AG.LND.TOTL.K2) | CC BY 4.0 |
+| History, places, routes | Original text written for this app; sources cited on every item (Britannica, UNESCO, national museums, peer-reviewed research) | — |
 | Typefaces | Cormorant Garamond, Inter (Google Fonts) | SIL Open Font Licence |
 
 ## Licence plan for the project
 
-Historical border data planned for Milestone 3 (`aourednik/historical-basemaps`) is GPL-3.0. This repository will therefore adopt GPL-3.0 when that data is added. CShapes 2.0 (colonial-era borders) is CC BY-NC-SA 4.0, which means non-commercial use only. Replace it before any commercial use.
+Historical border data (`aourednik/historical-basemaps`, GPL-3.0) is loaded at runtime rather than copied into this repository. If it is ever bundled here, the repository should adopt GPL-3.0. CShapes 2.0 (colonial-era borders) is CC BY-NC-SA 4.0, which means non-commercial use only. Replace it before any commercial use.
